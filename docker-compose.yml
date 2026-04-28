@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  minecraft:
+    image: itzg/minecraft-server:java16
+    container_name: minecraft
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: "SPIGOT"
+      MEMORY: "2G"
+      VERSION: "1.16.5"
+      ONLINE_MODE: "FALSE" # Чтобы могли зайти с пираток
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+

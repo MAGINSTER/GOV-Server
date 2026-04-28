@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.18.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1777299689346
+  login: 1777298800926
+money: '0'
+last-account-name: Uripi5
+logoutlocation:
+  world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+  world-name: world
+  x: 175.90352587279494
+  y: 81.0
+  z: -203.02592921018993
+  yaw: -146.99989318847656
+  pitch: 67.20001220703125
+lastlocation:
+  world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+  world-name: world
+  x: 150.9613178255061
+  y: 77.0
+  z: -83.44712603300628
+  yaw: -158.84996032714844
+  pitch: 0.6000099778175354

@@ -1,0 +1,636 @@
+[12:25:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:25:24] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[12:25:25] [Worker-Main-14/INFO]: Loaded 7 recipes
+[12:25:27] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[12:25:27] [Server thread/INFO]: Loading properties
+[12:25:27] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[12:25:27] [Server thread/INFO]: Debug logging is disabled
+[12:25:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:25:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:25:27] [Server thread/INFO]: Default game type: SURVIVAL
+[12:25:27] [Server thread/INFO]: Generating keypair
+[12:25:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:25:27] [Server thread/INFO]: Using epoll channel type
+[12:25:28] [Server thread/ERROR]: Could not load 'plugins/ViaVersion-5.9.0.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/ViaVersionPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:381) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:224) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:928) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/ViaVersionPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:186) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:67) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	... 7 more
+[12:25:29] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[12:25:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@224b45da]
+[12:25:29] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[12:25:29] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.42
+[12:25:30] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:25:30] [Server thread/INFO]: [TAB] Loading TAB v6.0.1
+[12:25:30] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.2
+[12:25:30] [Server thread/INFO]: [LPC] Loading LPC v3.7.1
+[12:25:30] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.2
+[12:25:30] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[12:25:30] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.21.2
+[12:25:30] [Server thread/INFO]: Loading EssentialsDiscordLink v2.21.2
+[12:25:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[12:25:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:25:30] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:25:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[12:25:32] [Server thread/INFO]: [WorldEdit] ====================================================
+[12:25:32] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[12:25:32] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[12:25:32] [Server thread/INFO]: [WorldEdit]   
+[12:25:32] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[12:25:32] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[12:25:32] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[12:25:32] [Server thread/INFO]: [WorldEdit]   
+[12:25:32] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[12:25:32] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[12:25:32] [Server thread/INFO]: [WorldEdit]   
+[12:25:32] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[12:25:32] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[12:25:32] [Server thread/INFO]: [WorldEdit]   
+[12:25:32] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[12:25:32] [Server thread/INFO]: [WorldEdit] ====================================================
+[12:25:32] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.42
+[12:25:32] [Server thread/INFO]:         __    
+[12:25:32] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.42
+[12:25:32] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[12:25:32] [Server thread/INFO]: 
+[12:25:32] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:25:33] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:25:33] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:25:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1806ms)
+[12:25:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:25:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:25:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:25:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:25:34] [Server thread/INFO]: Preparing level "world"
+[12:25:34] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:25:34] [Server thread/INFO]: Mob Spawn Range: 6
+[12:25:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:25:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:25:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:25:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:25:34] [Server thread/INFO]: Max TNT Explosions: 100
+[12:25:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:25:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:25:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:25:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:25:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:25:34] [Server thread/INFO]: View Distance: 10
+[12:25:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:25:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:25:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:25:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:25:34] [Server thread/INFO]: Mob Spawn Range: 6
+[12:25:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:25:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:25:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:25:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:25:34] [Server thread/INFO]: Max TNT Explosions: 100
+[12:25:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:25:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:25:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:25:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:25:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:25:34] [Server thread/INFO]: View Distance: 10
+[12:25:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:25:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:25:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:25:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:25:34] [Server thread/INFO]: Mob Spawn Range: 6
+[12:25:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:25:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:25:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:25:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:25:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:25:34] [Server thread/INFO]: Max TNT Explosions: 100
+[12:25:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:25:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:25:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:25:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:25:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:25:34] [Server thread/INFO]: View Distance: 10
+[12:25:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:25:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:25:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:25:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:25:36] [Server thread/INFO]: Preparing spawn area: 0%
+[12:25:36] [Server thread/INFO]: Preparing spawn area: 0%
+[12:25:36] [Server thread/INFO]: Preparing spawn area: 0%
+[12:25:36] [Server thread/INFO]: Preparing spawn area: 0%
+[12:25:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:25:37] [Server thread/INFO]: Preparing spawn area: 83%
+[12:25:37] [Server thread/INFO]: Time elapsed: 2651 ms
+[12:25:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:25:38] [Server thread/INFO]: Preparing spawn area: 0%
+[12:25:38] [Server thread/INFO]: Preparing spawn area: 0%
+[12:25:38] [Server thread/INFO]: Preparing spawn area: 0%
+[12:25:39] [Server thread/INFO]: Preparing spawn area: 63%
+[12:25:39] [Worker-Main-11/INFO]: Preparing spawn area: 91%
+[12:25:40] [Worker-Main-9/INFO]: Preparing spawn area: 91%
+[12:25:40] [Worker-Main-12/INFO]: Preparing spawn area: 91%
+[12:25:40] [Worker-Main-13/INFO]: Preparing spawn area: 92%
+[12:25:41] [Server thread/INFO]: Time elapsed: 3866 ms
+[12:25:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:25:41] [Server thread/INFO]: Preparing spawn area: 0%
+[12:25:41] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[12:25:42] [Worker-Main-10/INFO]: Preparing spawn area: 97%
+[12:25:42] [Server thread/INFO]: Time elapsed: 1043 ms
+[12:25:42] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[12:25:42] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.MANGROVE
+[12:25:42] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.TALL_MANGROVE
+[12:25:42] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.CHERRY
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[12:25:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[12:25:42] [Server thread/INFO]: [WorldGuard] Loading region data...
+[12:25:42] [Server thread/INFO]: [TAB] Enabling TAB v6.0.1
+[12:25:42] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.v1_16_R3.NMSImplementationProvider
+[12:25:42] [Server thread/INFO]: [TAB] Enabled in 207ms
+[12:25:42] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[12:25:43] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[12:25:43] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[12:25:43] [Server thread/INFO]: No kits found to migrate.
+[12:25:43] [Server thread/INFO]: Selected Bukkit Material Tag Provider as the provider for MaterialTagProvider
+[12:25:43] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[12:25:43] [Server thread/INFO]: Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[12:25:43] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[12:25:43] [Server thread/INFO]: Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[12:25:43] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[12:25:43] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[12:25:43] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
+[12:25:43] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
+[12:25:43] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
+[12:25:43] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[12:25:43] [Server thread/INFO]: Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[12:25:43] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[12:25:43] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[12:25:43] [Server thread/INFO]: Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[12:25:43] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[12:25:43] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[12:25:43] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[12:25:43] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
+[12:25:43] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[12:25:43] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[12:25:43] [Server thread/INFO]: Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[12:25:43] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
+[12:25:43] [Server thread/INFO]: Loaded 43880 items from items.json.
+[12:25:43] [Server thread/INFO]: Using locale en_US
+[12:25:43] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[12:25:43] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[12:25:43] [Server thread/WARN]: Detected supported permissions plugin LuckPerms without Vault installed.
+[12:25:43] [Server thread/WARN]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[12:25:43] [Server thread/INFO]: Using superperms-based permissions.
+[12:25:43] [Server thread/INFO]: [LPC] Enabling LPC v3.7.1
+[12:25:43] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[12:25:43] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[12:25:43] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[12:25:43] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[12:25:44] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[12:25:44] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[12:25:44] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/data/plugins/Essentials/spawn.yml'
+[12:25:44] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12:25:44] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[12:25:44] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.2
+[12:25:44] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[12:25:44] [Server thread/INFO]: Attempting to login to Discord...
+[12:25:44] [Server thread/ERROR]: An error occurred while logging into Discord, which has caused the plugin to disable itself: 
+No token provided! Please follow the tutorial in the config in order to setup the plugin.
+[12:25:44] [Server thread/INFO]: Enabling EssentialsDiscordLink v2.21.2
+[12:25:44] [Server thread/ERROR]: Error occurred while enabling EssentialsDiscordLink v2.21.2 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "net.essentialsx.api.v2.services.discord.DiscordService.getInteractionController()" because "this.api" is null
+	at net.essentialsx.discordlink.EssentialsDiscordLink.onEnable(EssentialsDiscordLink.java:69) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:492) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:406) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:554) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:257) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:928) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+[12:25:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:25:44] [Server thread/INFO]: Done (10.802s)! For help, type "help"
+[12:25:44] [Server thread/INFO]: Starting remote control listener
+[12:25:44] [Server thread/INFO]: Thread RCON Listener started
+[12:25:44] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[12:25:44] [Craft Scheduler Thread - 2/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12:25:44] [Craft Scheduler Thread - 2/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12:25:44] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[12:25:44] [Craft Scheduler Thread - 2/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12:25:44] [Craft Scheduler Thread - 2/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[12:25:44] [Server thread/INFO]: com.mojang.authlib.GameProfile@d001840[id=c47f7a7b-c793-385d-9878-28368251e21b,name=MrRetex,properties={},legacy=false] (/172.18.0.1:42030) lost connection: Disconnected
+[12:25:44] [User Authenticator #1/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
+[12:25:55] [User Authenticator #2/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
+[12:25:55] [Server thread/INFO]: MrRetex[/172.18.0.1:58676] logged in with entity id 126 at ([world]-34.87486655288617, 106.66807542258785, -398.8967273399543)
+[12:26:21] [Craft Scheduler Thread - 1/INFO]: [AuthMe] The user MrRetex has 6 accounts:
+[12:26:21] [Craft Scheduler Thread - 1/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy.
+[12:26:21] [Craft Scheduler Thread - 1/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
+[12:26:59] [Server thread/INFO]: MrRetex has reached the goal [Beaconator]
+[12:26:59] [Server thread/INFO]: MrRetex has made the advancement [Bring Home the Beacon]
+[12:27:50] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[12:28:13] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[12:32:15] [Server thread/INFO]: MrRetex issued server command: /datapack list
+[12:33:39] [Server thread/INFO]: MrRetex issued server command: /difficulty normal
+[12:33:39] [Server thread/INFO]: [MrRetex: The difficulty has been set to Normal]
+[12:35:37] [User Authenticator #3/INFO]: UUID of player mahiro_oyama1 is 461acf4b-7d8e-3ba0-978c-af66294240ca
+[12:35:37] [Server thread/INFO]: Created a User for mahiro_oyama1 (461acf4b-7d8e-3ba0-978c-af66294240ca) for non Bukkit type: org.bukkit.craftbukkit.v1_16_R3.entity.CraftPlayer
+[12:35:37] [Server thread/INFO]: mahiro_oyama1[/172.18.0.1:44854] logged in with entity id 1469 at ([world]134.5, 75.0, -77.5)
+[12:36:06] [Server thread/INFO]: MrRetex issued server command: /tp mahiro_oyama1
+[12:36:07] [Server thread/INFO]: mahiro_oyama1 lost connection: Время авторизации истекло.
+[12:36:07] [Server thread/INFO]: mahiro_oyama1 left the game
+[12:36:16] [User Authenticator #4/INFO]: UUID of player mahiro_oyama1 is 461acf4b-7d8e-3ba0-978c-af66294240ca
+[12:36:16] [Server thread/INFO]: mahiro_oyama1[/172.18.0.1:53144] logged in with entity id 1726 at ([world]134.5, 75.0, -77.5)
+[12:36:23] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[12:36:35] [Server thread/INFO]: [AuthMe] mahiro_oyama1 registered 172.18.0.1
+[12:36:35] [Craft Scheduler Thread - 8/INFO]: [AuthMe] The user mahiro_oyama1 has 7 accounts:
+[12:36:35] [Craft Scheduler Thread - 8/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, §amahiro_oyama1§7.
+[12:36:35] [Craft Scheduler Thread - 8/INFO]: [AuthMe] mahiro_oyama1 logged in 172.18.0.1
+[12:36:45] [Async Chat Thread - #0/INFO]: [OWNER] MrRetex: Пинг моё почтение
+[12:36:55] [Async Chat Thread - #0/INFO]: [OWNER] MrRetex: 1462
+[12:37:00] [Server thread/INFO]: MrRetex issued server command: /seen mahiro_oyama1
+[12:37:02] [Async Chat Thread - #0/INFO]: [Игрок] mahiro_oyama1: ебать
+[12:37:22] [Async Chat Thread - #0/INFO]: [Игрок] mahiro_oyama1: а чё ночь
+[12:37:24] [Async Chat Thread - #0/INFO]: [OWNER] MrRetex: Причем, все играют с моего ip, но у меня пинг 83
+[12:37:27] [Server thread/INFO]: MrRetex issued server command: /day
+[12:37:37] [Async Chat Thread - #0/INFO]: [OWNER] MrRetex: На спавне незя ломать
+[12:37:50] [Async Chat Thread - #0/INFO]: [Игрок] mahiro_oyama1: а какой у тебя айпи
+[12:38:03] [Async Chat Thread - #0/INFO]: [OWNER] MrRetex: Не скажу)
+[12:38:12] [Server thread/INFO]: mahiro_oyama1 has made the advancement [Monster Hunter]
+[12:38:23] [Async Chat Thread - #0/INFO]: [Игрок] mahiro_oyama1: скажи(
+[12:38:29] [Async Chat Thread - #0/INFO]: [OWNER] MrRetex: Ни
+[12:38:49] [Async Chat Thread - #0/INFO]: [OWNER] MrRetex: Ну-ка вшатай мне
+[12:38:55] [Server thread/INFO]: mahiro_oyama1 was killed trying to hurt MrRetex
+[12:39:02] [Server thread/INFO]: MrRetex issued server command: /tp mahiro_oyama1 MrRetex
+[12:39:08] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[12:39:12] [Async Chat Thread - #0/INFO]: [Игрок] mahiro_oyama1: сука у меня лагает
+[12:40:52] [Server thread/INFO]: MrRetex issued server command: /gamerule mobGriefing false
+[12:40:52] [Server thread/INFO]: [MrRetex: Gamerule mobGriefing is now set to: false]
+[12:41:07] [Async Chat Thread - #1/INFO]: [OWNER] MrRetex: Зря тапор сделал
+[12:41:12] [Async Chat Thread - #1/INFO]: [OWNER] MrRetex: Тут приваты
+[12:41:12] [Async Chat Thread - #1/INFO]: [Игрок] mahiro_oyama1: ?
+[12:41:29] [Async Chat Thread - #1/INFO]: [Игрок] mahiro_oyama1: а чем дерево добывать
+[12:41:37] [Async Chat Thread - #1/INFO]: [OWNER] MrRetex: Лапками
+[12:41:47] [Async Chat Thread - #1/INFO]: [OWNER] MrRetex: Потом до каменного идти
+[12:41:52] [Async Chat Thread - #1/INFO]: [Игрок] mahiro_oyama1: я не фурри
+[12:43:35] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: аа
+[12:44:07] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: сука хули логает
+[12:44:14] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Пинг у тебя
+[12:44:22] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: 311
+[12:44:24] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: а про фпс
+[12:44:38] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Хз, мб ОЗУ мало выделил
+[12:44:42] [Server thread/INFO]: MrRetex issued server command: /invsee
+[12:44:44] [Server thread/INFO]: MrRetex issued server command: /invsee mahiro_oyama1
+[12:44:45] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: 2гб
+[12:44:52] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Маловато
+[12:45:00] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Палочку на базу
+[12:45:05] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: не забывай что я с планшета
+[12:45:46] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Не забывай, это джава майн)
+[12:45:54] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: То что он лагает это норма
+[12:46:11] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: может иза того что 48 станков стоит?
+[12:46:19] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Может
+[12:46:31] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: У меня 12 стоит
+[12:46:54] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: о 50-70 фпс
+[12:47:22] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[12:47:29] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: я ща скажу подключю
+[12:47:35] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: клаву
+[12:47:42] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:night_vision 999999 255 true
+[12:47:42] [Server thread/INFO]: [MrRetex: Applied effect Night Vision to MrRetex]
+[12:47:45] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Давай
+[12:48:17] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: а добавьте мод на микро
+[12:48:31] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Так он на поджаве не работает
+[12:48:42] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Я помню пытался войс добавить себе
+[12:48:59] [Server thread/INFO]: MrRetex issued server command: /feed
+[12:49:08] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[12:49:13] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: все подключил
+[12:49:39] [Server thread/INFO]: MrRetex issued server command: /.s
+[12:49:48] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: есть еда?
+[12:49:52] [Server thread/INFO]: MrRetex issued server command: /clear MrRetex
+[12:50:35] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Вот это не ломай
+[12:50:41] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: ок
+[12:50:50] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Это Апертур стоит
+[12:50:55] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Деревню для всех
+[12:50:58] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: а где у вас поселение?
+[12:51:10] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Пока нету поселений
+[12:51:18] [Server thread/INFO]: MrRetex issued server command: /home
+[12:51:23] [Server thread/INFO]: MrRetex issued server command: /tp mahiro_oyama1 MrRetex
+[12:51:27] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Вот моё
+[12:51:34] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: е
+[12:52:10] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: а это что?
+[12:52:14] [Async Chat Thread - #2/INFO]: [OWNER] MrRetex: Ща найду дом Итсуки
+[12:52:35] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: да чука
+[12:53:09] [Async Chat Thread - #2/INFO]: [Игрок] mahiro_oyama1: О ЗОЛОТОЙ ПОРТАЛ
+[12:54:21] [Async Chat Thread - #3/INFO]: [Игрок] mahiro_oyama1: э
+[12:55:07] [Server thread/INFO]: MrRetex issued server command: /tp mahiro_oyama1 MrRetex
+[12:55:34] [Async Chat Thread - #4/INFO]: [Игрок] mahiro_oyama1: а че тут всезде приват
+[12:55:43] [Async Chat Thread - #4/INFO]: [Игрок] mahiro_oyama1: везде
+[12:55:44] [Async Chat Thread - #4/INFO]: [OWNER] MrRetex: Только на домах
+[12:55:58] [Async Chat Thread - #4/INFO]: [OWNER] MrRetex: У нас гиферство запрещено
+[12:56:02] [Async Chat Thread - #4/INFO]: [OWNER] MrRetex: Пока что
+[12:57:13] [Async Chat Thread - #5/INFO]: [Игрок] mahiro_oyama1: а это что
+[12:57:24] [Async Chat Thread - #5/INFO]: [OWNER] MrRetex: Деморган
+[12:57:32] [Async Chat Thread - #5/INFO]: [Игрок] mahiro_oyama1: как на аз)
+[12:57:49] [Server thread/INFO]: MrRetex issued server command: /jail mahiro_oyama1 dmg 1m test
+[12:57:49] [Server thread/INFO]: §6Player§c mahiro_oyama1 §6jailed for§c 1 minute §6by §cMrRetex§6.
+[12:57:58] [Async Chat Thread - #5/INFO]: [Игрок] mahiro_oyama1: ЭЭЭЭЭЭЭЭЭЭЭЭЭЭ
+[12:58:15] [Server thread/INFO]: MrRetex issued server command: /jail mahiro_oyama1 dmg 0
+[12:58:15] [Server thread/INFO]: §6Player§cmahiro_oyama1 §6jail's time extended to §cnow §6by §cMrRetex§6.
+[12:58:23] [Server thread/INFO]: MrRetex issued server command: /tp mahiro_oyama1 MrRetex
+[12:58:42] [Async Chat Thread - #5/INFO]: [Игрок] mahiro_oyama1: че делать
+[12:58:53] [Async Chat Thread - #5/INFO]: [OWNER] MrRetex: А шо хочешь?
+[12:58:59] [Async Chat Thread - #5/INFO]: [Игрок] mahiro_oyama1: хзхзхзхзхзх
+[12:59:19] [Async Chat Thread - #5/INFO]: [OWNER] MrRetex: Админку, гм и тому подобное - хуй
+[12:59:40] [Async Chat Thread - #5/INFO]: [Игрок] mahiro_oyama1: а можно разве админку)?
+[12:59:49] [Async Chat Thread - #5/INFO]: [OWNER] MrRetex: Не
+[13:00:05] [Async Chat Thread - #5/INFO]: [Игрок] mahiro_oyama1: эх
+[13:00:09] [Async Chat Thread - #5/INFO]: [OWNER] MrRetex: Китайская газета Хуй нам, Хуй вам
+[13:00:25] [Async Chat Thread - #5/INFO]: [OWNER] MrRetex: Взятка?
+[13:00:37] [Server thread/INFO]: mahiro_oyama1 fell from a high place
+[13:00:45] [Async Chat Thread - #5/INFO]: [Игрок] mahiro_oyama1: фука
+[13:00:52] [Server thread/INFO]: MrRetex issued server command: /tp mahiro_oyama1 MrRetex
+[13:01:20] [Server thread/INFO]: MrRetex issued server command: /gamerule keepInventory true
+[13:01:20] [Server thread/INFO]: [MrRetex: Gamerule keepInventory is now set to: true]
+[13:01:30] [Server thread/INFO]: mahiro_oyama1 was slain by MrRetex
+[13:01:38] [Async Chat Thread - #5/INFO]: [OWNER] MrRetex: Иди развивайся
+[13:01:45] [Server thread/INFO]: MrRetex issued server command: /gamerule keepInventory false
+[13:01:45] [Server thread/INFO]: [MrRetex: Gamerule keepInventory is now set to: false]
+[13:02:07] [Server thread/INFO]: MrRetex issued server command: /gm 3
+[13:02:18] [Server thread/INFO]: mahiro_oyama1 has made the advancement [Stone Age]
+[13:02:41] [Server thread/INFO]: mahiro_oyama1 has made the advancement [Getting an Upgrade]
+[13:04:20] [Server thread/INFO]: MrRetex issued server command: /title @a title "Потом поставлю сюда интеграцию с ДС"
+[13:04:20] [Server thread/INFO]: [MrRetex: Showing new title for 2 players]
+[13:04:31] [Server thread/INFO]: MrRetex issued server command: /title @a subtitle "Потом поставлю сюда интеграцию с ДС"
+[13:04:31] [Server thread/INFO]: [MrRetex: Showing new subtitle for 2 players]
+[13:04:31] [Async Chat Thread - #6/INFO]: [Игрок] mahiro_oyama1: юлять это что
+[13:04:40] [Server thread/INFO]: MrRetex issued server command: /title @a subtitle "Потом поставлю сюда интеграцию с ДС"
+[13:04:40] [Server thread/INFO]: [MrRetex: Showing new subtitle for 2 players]
+[13:04:41] [Server thread/INFO]: MrRetex issued server command: /title @a subtitle "Потом поставлю сюда интеграцию с ДС"
+[13:04:41] [Server thread/INFO]: [MrRetex: Showing new subtitle for 2 players]
+[13:04:54] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[13:04:56] [Server thread/INFO]: MrRetex issued server command: /vanish
+[13:05:15] [Async Chat Thread - #6/INFO]: [Игрок] mahiro_oyama1: сука в инвизе
+[13:05:27] [Async Chat Thread - #6/INFO]: [Игрок] mahiro_oyama1: сука в инвизе
+[13:05:30] [Async Chat Thread - #6/INFO]: [Игрок] mahiro_oyama1: сука в инвизе
+[13:06:08] [Server thread/INFO]: MrRetex issued server command: /gm 3
+[13:06:11] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[13:06:42] [Async Chat Thread - #7/INFO]: [Игрок] mahiro_oyama1: сука я в ф5 могу чекать
+[13:07:05] [Server thread/INFO]: MrRetex issued server command: /spawnmob zombie
+[13:07:31] [Async Chat Thread - #7/INFO]: [Игрок] mahiro_oyama1: шдюха
+[13:08:01] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:invisibility 999999 255 true
+[13:08:01] [Server thread/INFO]: [MrRetex: Applied effect Invisibility to MrRetex]
+[13:08:07] [Server thread/INFO]: MrRetex issued server command: /gm 3
+[13:08:13] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[13:08:22] [Server thread/INFO]: MrRetex issued server command: /gm 3
+[13:08:32] [Async Chat Thread - #8/INFO]: [Игрок] mahiro_oyama1: пидарас
+[13:09:09] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[13:09:11] [Server thread/INFO]: MrRetex issued server command: /gm 3
+[13:09:13] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[13:09:17] [Server thread/INFO]: MrRetex issued server command: /gm 3
+[13:09:51] [Server thread/INFO]: MrRetex issued server command: /home
+[13:09:54] [Server thread/INFO]: MrRetex issued server command: /vanish
+[13:09:58] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[13:10:30] [Server thread/INFO]: MrRetex issued server command: /homes mahiro_oyama1:
+[13:11:48] [Server thread/INFO]: MrRetex issued server command: /tp 346, 255, -1641
+[13:11:54] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex 346, 255, -1641
+[13:12:00] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex 346 255 -1641
+[13:12:15] [Server thread/INFO]: MrRetex issued server command: /sun
+[13:13:17] [Async Chat Thread - #9/INFO]: [Игрок] mahiro_oyama1: хули одно море
+[13:13:31] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex -455 0 -1771
+[13:13:36] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex -455 18 -1771
+[13:13:40] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex -455 25 -1771
+[13:13:45] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex -455 90 -1771
+[13:13:51] [Async Chat Thread - #9/INFO]: [OWNER] MrRetex: Генерация такая
+[13:14:13] [Async Chat Thread - #9/INFO]: [Игрок] mahiro_oyama1: а нахуй ты мне в инвизе бил
+[13:14:25] [Async Chat Thread - #9/INFO]: [OWNER] MrRetex: Я в инвизе?
+[13:14:42] [Async Chat Thread - #9/INFO]: [Игрок] mahiro_oyama1: нет блять я
+[13:14:53] [Async Chat Thread - #9/INFO]: [OWNER] MrRetex: Я базу Итсуки искал
+[13:15:47] [Async Chat Thread - #9/INFO]: [Игрок] mahiro_oyama1: я афк есть
+[13:15:54] [Async Chat Thread - #9/INFO]: [OWNER] MrRetex: Ок
+[13:16:26] [Async Chat Thread - #9/INFO]: [Игрок] mahiro_oyama1: ох еюать
+[13:16:45] [Async Chat Thread - #9/INFO]: [Игрок] mahiro_oyama1: ох ебать
+[13:16:49] [Async Chat Thread - #9/INFO]: [OWNER] MrRetex: Закладку нашёл?
+[13:17:14] [Async Chat Thread - #9/INFO]: [Игрок] mahiro_oyama1: морской замок
+[13:17:23] [Server thread/INFO]: MrRetex issued server command: /gm 3
+[13:17:26] [Server thread/INFO]: MrRetex issued server command: /tp mahiro_oyama1
+[13:17:42] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[13:18:01] [Async Chat Thread - #9/INFO]: [Игрок] mahiro_oyama1: -336.555 62 1181
+[13:18:09] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[13:18:19] [Async Chat Thread - #9/INFO]: [OWNER] MrRetex: Нихуя се
+[13:18:34] [Async Chat Thread - #9/INFO]: [Игрок] mahiro_oyama1: ага
+[13:18:58] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:instant_health
+[13:18:58] [Server thread/INFO]: [MrRetex: Applied effect Instant Health to MrRetex]
+[13:19:11] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:instant_health 999999 255 true
+[13:19:11] [Server thread/INFO]: [MrRetex: Applied effect Instant Health to MrRetex]
+[13:19:18] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:instant_health 999999 255 true
+[13:19:18] [Server thread/INFO]: [MrRetex: Applied effect Instant Health to MrRetex]
+[13:19:22] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[13:19:23] [Server thread/INFO]: mahiro_oyama1 lost connection: Disconnected
+[13:19:23] [Server thread/INFO]: mahiro_oyama1 left the game
+[13:19:34] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[13:19:40] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:instant_health 999999 255 true
+[13:19:40] [Server thread/INFO]: [MrRetex: Applied effect Instant Health to MrRetex]
+[13:19:59] [Server thread/INFO]: MrRetex issued server command: /effect clear MrRetex
+[13:19:59] [Server thread/INFO]: [MrRetex: Removed every effect from MrRetex]
+[13:20:01] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:instant_health 999999 255 true
+[13:20:01] [Server thread/INFO]: [MrRetex: Applied effect Instant Health to MrRetex]
+[13:20:11] [Server thread/INFO]: MrRetex issued server command: /effect clear MrRetex
+[13:20:11] [Server thread/INFO]: [MrRetex: Removed every effect from MrRetex]
+[13:20:19] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:regeneration 999999 255 true
+[13:20:19] [Server thread/INFO]: [MrRetex: Applied effect Regeneration to MrRetex]
+[13:20:34] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:health_boost 999999 255 true
+[13:20:34] [Server thread/INFO]: [MrRetex: Applied effect Health Boost to MrRetex]
+[13:20:42] [Server thread/INFO]: MrRetex issued server command: /feed
+[13:20:58] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:instant_health
+[13:20:58] [Server thread/INFO]: [MrRetex: Applied effect Instant Health to MrRetex]
+[13:21:01] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:instant_health 25
+[13:21:01] [Server thread/INFO]: [MrRetex: Applied effect Instant Health to MrRetex]
+[13:21:06] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:instant_health 25
+[13:21:06] [Server thread/INFO]: [MrRetex: Applied effect Instant Health to MrRetex]
+[13:21:09] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:instant_health 25
+[13:21:09] [Server thread/INFO]: [MrRetex: Applied effect Instant Health to MrRetex]
+[13:21:10] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:instant_health 25
+[13:21:10] [Server thread/INFO]: [MrRetex: Applied effect Instant Health to MrRetex]
+[13:21:23] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:night_vision 999999 255 true
+[13:21:23] [Server thread/INFO]: [MrRetex: Applied effect Night Vision to MrRetex]
+[13:21:42] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[13:21:56] [Server thread/INFO]: MrRetex issued server command: /enchant thorns
+[13:22:03] [Server thread/INFO]: MrRetex issued server command: /enchant alldamage
+[13:22:05] [Server thread/INFO]: MrRetex issued server command: /enchant alldamage 5
+[13:22:19] [Server thread/INFO]: MrRetex issued server command: /enchant durability 3
+[13:22:53] [Server thread/INFO]: MrRetex issued server command: /enchant riptide 3
+[13:23:12] [Server thread/INFO]: MrRetex issued server command: /enchant impaling
+[13:23:14] [Server thread/INFO]: MrRetex issued server command: /enchant impaling 5
+[13:23:39] [Server thread/INFO]: MrRetex issued server command: /enchant unbreaking 5
+[13:23:41] [Server thread/INFO]: MrRetex issued server command: /enchant unbreaking 3
+[13:24:05] [Server thread/INFO]: MrRetex issued server command: /enchant mending 3
+[13:24:07] [Server thread/INFO]: MrRetex issued server command: /enchant mending 1
+[13:24:20] [Server thread/INFO]: MrRetex issued server command: /enchant loyalty 3
+[13:24:36] [Server thread/INFO]: MrRetex issued server command: /enchant channelling 1
+[13:25:25] [Server thread/INFO]: MrRetex issued server command: /enchant efficiency 5
+[13:25:34] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[13:26:28] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:night_vision 999999 255 true
+[13:26:28] [Server thread/INFO]: [MrRetex: Applied effect Night Vision to MrRetex]
+[13:27:28] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex -336.555 62 1181
+[13:28:29] [Server thread/INFO]: MrRetex issued server command: /home
+[13:29:56] [Server thread/INFO]: MrRetex issued server command: /enchant channelling 0
+[13:30:03] [Server thread/INFO]: MrRetex issued server command: /enchant channelling 1
+[13:30:30] [Server thread/INFO]: MrRetex issued server command: /enchant riptide 0
+[13:30:46] [Server thread/INFO]: MrRetex has made the advancement [A Throwaway Joke]
+[13:32:32] [Server thread/INFO]: MrRetex issued server command: /spawnmob zombie 10
+[13:32:32] [Server thread/INFO]: MrRetex issued server command: /spawnmob zombie 10
+[13:32:33] [Server thread/INFO]: MrRetex issued server command: /spawnmob zombie 10
+[13:32:33] [Server thread/INFO]: MrRetex issued server command: /spawnmob zombie 10
+[13:32:34] [Server thread/INFO]: MrRetex issued server command: /spawnmob zombie 10
+[13:37:12] [Server thread/INFO]: MrRetex issued server command: /give MrRetex armor_stand
+[13:37:53] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[13:41:17] [Server thread/INFO]: MrRetex issued server command: /save-all
+[13:41:17] [Server thread/INFO]: [MrRetex: Saved the game]
+[13:52:52] [Server thread/ERROR]: Block at -22, 62, -402 is Block{minecraft:water} but has net.minecraft.server.v1_16_R3.TileEntityCampfire@3a7001ef. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[13:52:54] [Server thread/ERROR]: Block at -22, 62, -402 is Block{minecraft:water} but has net.minecraft.server.v1_16_R3.TileEntityCampfire@127843b. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[13:52:55] [Server thread/ERROR]: Block at -22, 62, -402 is Block{minecraft:water} but has net.minecraft.server.v1_16_R3.TileEntityCampfire@6988e323. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[13:53:56] [Server thread/INFO]: MrRetex issued server command: //wand
+[13:54:20] [Server thread/INFO]: MrRetex issued server command: //set campfire
+[13:54:58] [Server thread/INFO]: MrRetex issued server command: //set campfire
+[13:55:45] [Server thread/ERROR]: Block at -51, 62, -388 is Block{minecraft:water} but has net.minecraft.server.v1_16_R3.TileEntityCampfire@337f5d42. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[13:55:58] [Server thread/INFO]: MrRetex issued server command: //set campfire
+[13:56:06] [Server thread/INFO]: MrRetex issued server command: //set campfire
+[13:56:35] [Server thread/INFO]: MrRetex issued server command: //set campfire
+[13:56:54] [Server thread/INFO]: MrRetex issued server command: //set campfire
+[13:57:05] [Server thread/INFO]: MrRetex issued server command: //set campfire
+[13:57:30] [Server thread/INFO]: MrRetex issued server command: //set campfire
+[13:57:49] [Server thread/ERROR]: Block at -28, 62, -421 is Block{minecraft:water} but has net.minecraft.server.v1_16_R3.TileEntityCampfire@3120356c. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[13:57:53] [Server thread/INFO]: MrRetex issued server command: //set campfire
+[13:58:08] [Server thread/INFO]: MrRetex issued server command: //undo
+[13:58:08] [Server thread/ERROR]: Block at -29, 63, -426 is Block{minecraft:lily_pad} but has net.minecraft.server.v1_16_R3.TileEntityCampfire@77e8c0da. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[13:58:28] [Server thread/INFO]: MrRetex issued server command: //set 0
+[13:58:40] [Server thread/INFO]: MrRetex issued server command: //set 0
+[13:58:55] [Server thread/INFO]: MrRetex issued server command: //set 0
+[13:59:02] [Server thread/INFO]: MrRetex issued server command: //undo
+[13:59:03] [Server thread/INFO]: MrRetex issued server command: //undo
+[13:59:12] [Server thread/INFO]: MrRetex issued server command: //undo
+[13:59:15] [Server thread/INFO]: MrRetex issued server command: //undo
+[13:59:15] [Server thread/ERROR]: Block at -51, 63, -420 is Block{minecraft:bedrock} but has net.minecraft.server.v1_16_R3.TileEntityCampfire@368474f3. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[13:59:23] [Server thread/INFO]: MrRetex issued server command: //set 0
+[13:59:36] [Server thread/INFO]: MrRetex issued server command: //set 0
+[13:59:41] [Server thread/INFO]: MrRetex issued server command: //undo
+[13:59:46] [Server thread/INFO]: MrRetex issued server command: //set 0
+[13:59:54] [Server thread/INFO]: MrRetex issued server command: //set 0
+[14:00:07] [Server thread/INFO]: MrRetex issued server command: //set 0
+[14:00:15] [Server thread/INFO]: MrRetex issued server command: //set 0
+[14:00:26] [Server thread/INFO]: MrRetex issued server command: //set 0
+[14:08:29] [Server thread/INFO]: MrRetex issued server command: /day
+[14:10:56] [Server thread/INFO]: MrRetex issued server command: /save-all
+[14:10:56] [Server thread/INFO]: [MrRetex: Saved the game]
+[14:11:06] [Server thread/INFO]: MrRetex lost connection: Disconnected
+[14:11:06] [Server thread/INFO]: MrRetex left the game
+[14:11:34] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[14:11:34] [Server thread/INFO]: [Rcon: Stopping the server]
+[14:11:34] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[14:11:34] [Server thread/INFO]: Stopping server
+[14:11:34] [Server thread/INFO]: Disabling EssentialsDiscordLink v2.21.2
+[14:11:34] [Server thread/INFO]: Disabling EssentialsDiscord v2.21.2
+[14:11:34] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[14:11:34] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[14:11:34] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[14:11:34] [Server thread/INFO]: Disabling EssentialsChat v2.21.2
+[14:11:34] [Server thread/INFO]: [LPC] Disabling LPC v3.7.1
+[14:11:34] [Server thread/INFO]: Disabling Essentials v2.21.2
+[14:11:34] [Server thread/INFO]: [TAB] Disabling TAB v6.0.1
+[14:11:34] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:11:34] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.42
+[14:11:34] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:11:34] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:11:34] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:11:34] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[14:11:34] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[14:11:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[14:11:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:11:34] [Server thread/INFO]: Saving players
+[14:11:34] [Server thread/INFO]: Saving worlds
+[14:11:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:11:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:11:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:11:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:11:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:11:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:11:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:11:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:11:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:11:35] [Server thread/INFO]: Thread RCON Listener stopped

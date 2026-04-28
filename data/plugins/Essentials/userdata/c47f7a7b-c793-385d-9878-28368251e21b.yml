@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.18.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1777382909032
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1777385466497
+  login: 1777379155781
+money: '0'
+last-account-name: MrRetex
+logoutlocation:
+  world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+  world-name: world
+  x: -36.05729295571955
+  y: 63.0
+  z: -406.3989282002458
+  yaw: 122.42205047607422
+  pitch: 9.14999008178711
+lastlocation:
+  world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+  world-name: world
+  x: -338.4167368049118
+  y: 59.37282928384065
+  z: 1221.993888762501
+  yaw: -352.031982421875
+  pitch: -12.15002727508545
+homes:
+  _________:
+    world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+    world-name: world
+    x: -42.95677993144242
+    y: 83.0
+    z: -407.0148369183799
+    yaw: 57.92244338989258
+    pitch: 1.8000644445419312

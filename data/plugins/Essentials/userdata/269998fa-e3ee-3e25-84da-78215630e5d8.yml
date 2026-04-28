@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.18.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1777310643920
+  login: 1777310637055
+money: '0'
+last-account-name: Daniil2044
+logoutlocation:
+  world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+  world-name: world
+  x: 146.52577229610407
+  y: 79.0
+  z: -70.07524258684809
+  yaw: -17.208160400390625
+  pitch: 3.600001096725464

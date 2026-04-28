@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.18.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1777303478010
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1777304417965
+  login: 1777302451114
+money: '0'
+last-account-name: Kteam
+logoutlocation:
+  world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+  world-name: world
+  x: 171.40417554127288
+  y: 64.0
+  z: -176.9301001988259
+  yaw: 53.32122802734375
+  pitch: 37.200008392333984
+lastlocation:
+  world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+  world-name: world
+  x: 80.49129858709932
+  y: 90.61813615040214
+  z: -78.87105310195571
+  yaw: 282.3056640625
+  pitch: 28.842742919921875

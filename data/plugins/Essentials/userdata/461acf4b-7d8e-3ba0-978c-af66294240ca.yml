@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.18.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1777382363100
+  login: 1777379776903
+money: '0'
+last-account-name: mahiro_oyama1
+logoutlocation:
+  world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+  world-name: world
+  x: -373.430556729973
+  y: 62.0
+  z: 1193.1943007904397
+  yaw: 188.4334716796875
+  pitch: 50.18021774291992
+lastlocation:
+  world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+  world-name: world
+  x: 138.85622763463093
+  y: 76.7531999805212
+  z: -62.90851680044095
+  yaw: 55.35002899169922
+  pitch: 15.60000228881836

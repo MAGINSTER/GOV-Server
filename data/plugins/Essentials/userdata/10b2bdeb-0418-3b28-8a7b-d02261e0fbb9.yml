@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.18.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1777310845198
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1777312472214
+  login: 1777312299775
+money: '0'
+last-account-name: _SuraPTS_
+logoutlocation:
+  world: b71b64a6-fe68-41d8-b997-9e1aec32c930
+  world-name: world_nether
+  x: 10.01648190532601
+  y: 85.875
+  z: -165.06389982060804
+  yaw: 83.8276138305664
+  pitch: 68.9998779296875
+homes:
+  home:
+    world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
+    world-name: world
+    x: -390.32144466837184
+    y: 68.0
+    z: -1718.6683885129642
+    yaw: -13.1741943359375
+    pitch: 28.050132751464844
+lastlocation:
+  world: b71b64a6-fe68-41d8-b997-9e1aec32c930
+  world-name: world_nether
+  x: -37.09623229536244
+  y: 86.04110926093821
+  z: -204.30285695351407
+  yaw: -126.90043640136719
+  pitch: 11.849998474121094
