@@ -10,27 +10,18 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    adminoffice:
-        min: {x: -68, y: 0, z: -437}
-        max: {x: -17, y: 255, z: -378}
-        members: {}
-        flags: {tnt: deny}
-        owners:
-            unique-ids: [c47f7a7b-c793-385d-9878-28368251e21b]
-        type: cuboid
-        priority: 0
-    pravik:
-        min: {x: -455, y: 0, z: -1771}
-        max: {x: -346, y: 255, z: -1641}
-        members: {}
-        flags: {pvp: deny}
-        owners:
-            unique-ids: [10b2bdeb-0418-3b28-8a7b-d02261e0fbb9]
-        type: cuboid
-        priority: 0
     __global__:
         members: {}
         flags: {}
         owners: {}
         type: global
+        priority: 0
+    gov:
+        min: {x: 180, y: 0, z: -288}
+        max: {x: 457, y: 255, z: 18}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [c47f7a7b-c793-385d-9878-28368251e21b]
+        type: cuboid
         priority: 0

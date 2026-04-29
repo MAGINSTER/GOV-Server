@@ -1,38 +1,37 @@
-# Minecraft -> Discord nickname synchronization
+# Синхронизация никнеймов
 # Can be controlled per player through the use of the 'discordsrv.nicknamesync' permission (granted by default)
 #
-# NicknameSynchronizationEnabled: whether to set the discord user's nickname to the nickname format automatically
-# NicknameSynchronizationCycleTime: amount of minutes between repeatedly triggering synchronization for all online players
-# NicknameSynchronizationFormat: the nickname format (keep in mind this shouldn't go over 32 characters)
-# %displayname%:            player's display name
-#                             example: Jeb
-# %username%:               player's username
-#                             example: Jeb_
-# %discord_name%:           player's discord username
-#                             example: Jeb
-# %discord_discriminator%:  player's discord discriminator
-#                             example: 4988
-# PlaceholderAPI placeholders are supported for the values
+# В Discord будет такой же ник, как в Minecraft
+# NicknameSynchronizationEnabled: Включить - true, отключить - false
+# NicknameSynchronizationCycleTime: Время (в минутах) - как часто DiscordSRV будет синхронизировать ники игроков.
+# NicknameSynchronizationFormat: Формат ников в дискорде.
+# Примеры:
+#     %displayname%: отображаемое имя игрока
+#     %username%: имя пользователя игрока
+#     %discord_name%: логин игрока в Discord
+#     %discord_discriminator%: дискорд-дискриминатор игрока
+# Поддерживает шаблоны из PlaceholderAPI.
 #
 NicknameSynchronizationEnabled: false
 NicknameSynchronizationCycleTime: 3
 NicknameSynchronizationFormat: "%displayname%"
 
-# Minecraft group <-> Discord role synchronization
-# Requires Vault
+# Синхронизация групп в Minecraft и ролей в Discord
+# Требует установку плагина Vault
 #
-# GroupRoleSynchronizationGroupsAndRolesToSync: these are roles/groups you'd like synchronized between Discord and Minecraft
-#                                               {"MC_GROUP_NAME": "DISCORD_ROLE_ID"} is the format to go by when adding more group/role pairs
-#                                               to get your Discord guild's role IDs, run "/discord debug" and look at the first section
-# GroupRoleSynchronizationMinecraftIsAuthoritative: whether Minecraft group changes override Discord role changes
+# GroupRoleSynchronizationGroupsAndRolesToSync: Группы и роли, которые нужно синхронизировать
+#                                               Используйте формат {"группа": "id роли в Discord"}
+#                                               Чтобы узнать id роли, напишите "/discord debug" и посмотрите в первую секцию.
+# GroupRoleSynchronizationMinecraftIsAuthoritative: Если выдать/забрать группу в Minecraft, то должна ли соответствующая роль
+#                                                   появиться/пропасть в Discord? true - да, false - нет
 # GroupRoleSynchronizationOneWay: whether to synchronise only one way, the way it is synchronised depends on the value
 #                                 of GroupRoleSynchronizationMinecraftIsAuthoritative.
-# GroupRoleSynchronizationEnableDenyPermission: whether discordsrv.sync.deny.<group> permissions are enabled
-# GroupRoleSynchronizationPrimaryGroupOnly: if true, only the player's primary group is counted for synchronization,
-#                                           otherwise, group sync counts all groups the player is in, including parent groups
-# GroupRoleSynchronizationOnLink: whether to resync when a player links
-# GroupRoleSynchronizationCycleTime: amount of minutes between repeatedly triggering synchronization for all online players
-# GroupRoleSynchronizationCycleCompletely: whether synchronizations running on a timer should synchronize every member in the bots Discord servers
+# GroupRoleSynchronizationEnableDenyPermission: Включены ли в Minecraft права discordsrv.sync.deny.<id роли>
+# GroupRoleSynchronizationPrimaryGroupOnly: true - синхронизируется только главная группа игрока.
+#                                           false - синхронизируются все побочные и родительские группы.
+# GroupRoleSynchronizationOnLink: Нужно ли проводить синхронизацию, когда игрок привязывает аккаунт в Discord?
+# GroupRoleSynchronizationCycleTime: Время (в минутах) - как часто DiscordSRV будет синхронизировать роли и группы игроков.
+# GroupRoleSynchronizationCycleCompletely: должна ли синхронизация, запущенная по таймеру, синхронизировать каждого участника на серверах Discord ботов
 #
 GroupRoleSynchronizationGroupsAndRolesToSync: {"trusted": "000000000000000000", "vip": "000000000000000000"}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
@@ -43,13 +42,13 @@ GroupRoleSynchronizationOnLink: true
 GroupRoleSynchronizationCycleTime: 5
 GroupRoleSynchronizationCycleCompletely: false
 
-# Ban synchronization
-# When a player gets banned on the server when they have a linked Discord account you can optionally ban them on the Discord server and vice versa
+# Синхронизация банов
+# Если игрока забанят в Minecraft, то он автоматически получит бан в дискорде (и наоборот)
 #
-# BanSynchronizationDiscordToMinecraft: whether to ban people on the Minecraft server if they get banned from the Discord server
-# BanSynchronizationDiscordToMinecraftReason: the message to be used as the ban reason for banning players from the Minecraft server
-# BanSynchronizationMinecraftToDiscord: whether to ban people on the Discord server if they get banned from the Minecraft server
+# BanSynchronizationDiscordToMinecraft: Если игрока забанили в Discord, нужно ли банить его в Minecraft? true - да, false - нет
+# BanSynchronizationDiscordToMinecraftReason: С каким сообщением банить игрока в Minercaft, если его забанили в Discord
+# BanSynchronizationMinecraftToDiscord: Если игрока забанили в Minecraft, нужно ли банить его в Discord? true - да, false - нет
 #
 BanSynchronizationDiscordToMinecraft: false
-BanSynchronizationDiscordToMinecraftReason: "&cYou have been banned until further notice from the server because you were banned on our Discord server."
+BanSynchronizationDiscordToMinecraftReason: "&cВы были заблокированы на сервере Discord, поэтому ваш аккаунт в Minecraft тоже получил бан."
 BanSynchronizationMinecraftToDiscord: false

@@ -1,9 +1,1 @@
-jails:
-  dmg:
-    world: b700af1d-cc34-40e4-90ea-d0d5ad3affc6
-    world-name: world
-    x: -31.664158685070475
-    y: 119.0
-    z: -415.0852308632623
-    yaw: 273.47802734375
-    pitch: -3.1500070095062256
+jails: {}

@@ -6,12 +6,13 @@ services:
     container_name: minecraft
     ports:
       - "25565:25565"
+      - "24454:24454/udp"  # Добавьте эту строку для голосового чата
     environment:
       EULA: "TRUE"
       TYPE: "SPIGOT"
       MEMORY: "2G"
       VERSION: "1.16.5"
-      ONLINE_MODE: "FALSE" # Чтобы могли зайти с пираток
+      ONLINE_MODE: "FALSE"
     volumes:
       - ./data:/data
     restart: unless-stopped
