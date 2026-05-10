@@ -1,0 +1,12 @@
+xp: 14.0
+health: 0.0
+hunger: 20
+saturation: 5.0
+location:
+  world: world
+  x: 603.2
+  y: 18.0
+  z: -17.6
+logType: DEATH
+version: v1_16_R3
+deathReason: ENTITY_ATTACK (Silverfish)

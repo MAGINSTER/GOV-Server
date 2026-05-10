@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.18.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778251575738
+  login: 1778250851814
+money: '0'
+last-account-name: Githler
+logoutlocation:
+  world: 1d3aedba-c335-4dc4-8438-87d31fa8bd4e
+  world-name: world
+  x: 269.69999998807907
+  y: 64.24918707874468
+  z: -111.30000001192093
+  yaw: 114.15008544921875
+  pitch: 32.84994125366211
+lastlocation:
+  world: 1d3aedba-c335-4dc4-8438-87d31fa8bd4e
+  world-name: world
+  x: 218.5
+  y: 63.021598472595215
+  z: -147.5
+  yaw: -3.1500003337860107
+  pitch: 31.050003051757812

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.18.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1778442656148
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778444673317
+  login: 1778443255048
+money: '0'
+last-account-name: BaFV
+logoutlocation:
+  world: 0a8b2ea4-cf34-4ce8-b2df-a0c67ae73431
+  world-name: world
+  x: 602.6764060576413
+  y: 63.0
+  z: -151.8724170896819
+  yaw: -103.82958984375
+  pitch: 9.597822189331055
+lastlocation:
+  world: 0a8b2ea4-cf34-4ce8-b2df-a0c67ae73431
+  world-name: world
+  x: 200.30000001192093
+  y: 71.0
+  z: -8.688072280664898
+  yaw: -74.19029235839844
+  pitch: 13.86959171295166
