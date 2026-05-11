@@ -320,6 +320,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "chicken": "2026-05-10 19:18:32 +0000",
+      "cooked_beef": "2026-05-11 20:11:49 +0000",
       "porkchop": "2026-05-10 19:16:32 +0000",
       "mutton": "2026-05-10 19:19:26 +0000",
       "rotten_flesh": "2026-05-10 19:17:27 +0000",
@@ -366,6 +367,12 @@
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2026-05-10 19:18:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2026-05-11 19:56:46 +0000"
     },
     "done": true
   },
@@ -612,6 +619,12 @@
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_boots": "2026-05-10 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-05-11 19:56:46 +0000"
     },
     "done": true
   },
@@ -889,6 +902,7 @@
       "minecraft:skeleton": "2026-05-10 19:15:20 +0000",
       "minecraft:spider": "2026-05-10 19:19:41 +0000",
       "minecraft:creeper": "2026-05-10 19:15:10 +0000",
+      "minecraft:slime": "2026-05-11 19:56:40 +0000",
       "minecraft:zombie": "2026-05-10 19:17:23 +0000",
       "minecraft:drowned": "2026-05-10 19:36:11 +0000"
     },
@@ -963,6 +977,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2026-05-10 19:08:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2026-05-11 19:56:46 +0000"
     },
     "done": true
   },

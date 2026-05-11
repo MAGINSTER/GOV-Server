@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1778444692463
-  login: 1778443237659
+  logout: 1778530685215
+  login: 1778528765506
 money: '999999999.0'
 last-account-name: MrRetex
 logoutlocation:
   world: 0a8b2ea4-cf34-4ce8-b2df-a0c67ae73431
   world-name: world
-  x: 604.131619296644
+  x: 603.975533461277
   y: 63.0
-  z: -151.06270273028804
-  yaw: -194.7781219482422
-  pitch: 13.199956893920898
+  z: -151.665538331379
+  yaw: 183.9755859375
+  pitch: 1.799866795539856
 lastlocation:
   world: 0a8b2ea4-cf34-4ce8-b2df-a0c67ae73431
   world-name: world
