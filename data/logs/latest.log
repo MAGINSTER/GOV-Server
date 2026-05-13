@@ -1,391 +1,385 @@
-[07:11:01] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[07:11:02] [Worker-Main-12/INFO]: Loaded 7 recipes
-[07:11:03] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[07:11:03] [Server thread/INFO]: Loading properties
-[07:11:03] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[07:11:03] [Server thread/INFO]: Debug logging is disabled
-[07:11:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:11:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:11:03] [Server thread/INFO]: Default game type: SURVIVAL
-[07:11:03] [Server thread/INFO]: Generating keypair
-[07:11:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:11:04] [Server thread/INFO]: Using epoll channel type
-[07:11:10] [Server thread/INFO]: [EconomyShopGUI] Loading 5 libraries... please wait
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
-[07:11:12] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-legacy/4.20.0/adventure-text-serializer-legacy-4.20.0.jar
-[07:11:15] [Server thread/INFO]: [InventoryRollbackPlus] Loading InventoryRollbackPlus v1.8.3
-[07:11:15] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[07:11:15] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
-[07:11:15] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
-[07:11:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[07:11:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[07:11:16] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[07:11:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[07:11:16] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[07:11:16] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[07:11:16] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[07:11:16] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.42
-[07:11:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[07:11:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[07:11:17] [Server thread/INFO]: [voicechat] Loading voicechat v2.6.16
-[07:11:17] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.12.0
-[07:11:17] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[07:11:17] [Server thread/INFO]: [LPC] Loading LPC v3.7.1
-[07:11:17] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
-[07:11:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@14c3808b]
-[07:11:17] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.2
-[07:11:17] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.2
-[07:11:17] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
-[07:11:17] [Server thread/INFO]: [TAB] Loading TAB v6.0.1
-[07:11:17] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
-[07:11:17] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v23.1
-[07:11:17] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.30.5
-[07:11:17] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.21.2
-[07:11:17] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v7.0.3
-[07:11:17] [Server thread/INFO]: [LWC] Loading LWC v2.2.8-f367129
-[07:11:17] [Server thread/INFO]: [SimpleClans] Loading SimpleClans v2.19.2-05e7abc
-[07:11:17] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.2.2
-[07:11:17] [Server thread/INFO]: Loading EssentialsDiscordLink v2.21.2
-[07:11:17] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.42
-[07:11:18] [Server thread/INFO]:         __    
-[07:11:18] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.42
-[07:11:18] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
-[07:11:18] [Server thread/INFO]: 
-[07:11:18] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[07:11:19] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[07:11:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[07:11:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1468ms)
-[07:11:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.0
-[07:11:20] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
-[07:11:20] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 16).[0;39m
-[07:11:20] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
-[07:11:20] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
-[07:11:20] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[07:11:20] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.2 which is not a depend, softdepend or loadbefore of this plugin.
-[07:11:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[07:11:20] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[07:11:20] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[07:11:20] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[07:11:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
-[07:11:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[07:11:20] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[07:11:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[07:11:22] [Server thread/INFO]: [WorldEdit] ====================================================
-[07:11:22] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[07:11:22] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[07:11:22] [Server thread/INFO]: [WorldEdit]   
-[07:11:22] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[07:11:22] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[07:11:22] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[07:11:22] [Server thread/INFO]: [WorldEdit]   
-[07:11:22] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[07:11:22] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[07:11:22] [Server thread/INFO]: [WorldEdit]   
-[07:11:22] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[07:11:22] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[07:11:22] [Server thread/INFO]: [WorldEdit]   
-[07:11:22] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[07:11:22] [Server thread/INFO]: [WorldEdit] ====================================================
-[07:11:22] [Server thread/INFO]: [LWC] Enabling LWC v2.2.8-f367129
-[07:11:22] [Server thread/INFO]: [LWC] Connecting to SQLite
-[07:11:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:11:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:11:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:11:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:11:22] [Server thread/INFO]: Preparing level "world"
-[07:11:22] [Server thread/INFO]: -------- World Settings For [world] --------
-[07:11:22] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:11:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:11:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:11:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07:11:22] [Server thread/INFO]: Max TNT Explosions: 100
-[07:11:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:11:22] [Server thread/INFO]: Mob Spawn Range: 6
-[07:11:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:11:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:11:22] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:11:22] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:11:22] [Server thread/INFO]: View Distance: 10
-[07:11:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:11:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:11:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07:11:22] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[07:11:22] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:11:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:11:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:11:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07:11:22] [Server thread/INFO]: Max TNT Explosions: 100
-[07:11:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:11:22] [Server thread/INFO]: Mob Spawn Range: 6
-[07:11:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:11:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:11:22] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:11:22] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:11:22] [Server thread/INFO]: View Distance: 10
-[07:11:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:11:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:11:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07:11:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[07:11:22] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:11:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:11:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:11:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:11:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07:11:22] [Server thread/INFO]: Max TNT Explosions: 100
-[07:11:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:11:22] [Server thread/INFO]: Mob Spawn Range: 6
-[07:11:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:11:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:11:22] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:11:22] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:11:22] [Server thread/INFO]: View Distance: 10
-[07:11:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:11:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:11:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07:11:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:11:24] [Server thread/INFO]: Preparing spawn area: 0%
-[07:11:24] [Server thread/INFO]: Preparing spawn area: 0%
-[07:11:24] [Server thread/INFO]: Preparing spawn area: 0%
-[07:11:24] [Server thread/INFO]: Preparing spawn area: 0%
-[07:11:27] [Worker-Main-8/INFO]: Preparing spawn area: 83%
-[07:11:27] [Worker-Main-8/INFO]: Preparing spawn area: 83%
-[07:11:27] [Worker-Main-14/INFO]: Preparing spawn area: 83%
-[07:11:27] [Worker-Main-14/INFO]: Preparing spawn area: 83%
-[07:11:27] [Worker-Main-14/INFO]: Preparing spawn area: 83%
-[07:11:27] [Worker-Main-14/INFO]: Preparing spawn area: 83%
-[07:11:27] [Worker-Main-14/INFO]: Preparing spawn area: 83%
-[07:11:28] [Worker-Main-12/INFO]: Preparing spawn area: 96%
-[07:11:28] [Worker-Main-13/INFO]: Preparing spawn area: 96%
-[07:11:29] [Worker-Main-14/INFO]: Preparing spawn area: 97%
-[07:11:29] [Server thread/INFO]: Time elapsed: 6821 ms
-[07:11:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[07:11:30] [Server thread/INFO]: Preparing spawn area: 0%
-[07:11:30] [Server thread/INFO]: Preparing spawn area: 0%
-[07:11:30] [Worker-Main-11/INFO]: Preparing spawn area: 83%
-[07:11:31] [Worker-Main-14/INFO]: Preparing spawn area: 83%
-[07:11:31] [Worker-Main-8/INFO]: Preparing spawn area: 83%
-[07:11:32] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[07:11:32] [Worker-Main-13/INFO]: Preparing spawn area: 83%
-[07:11:33] [Worker-Main-10/INFO]: Preparing spawn area: 87%
-[07:11:33] [Worker-Main-11/INFO]: Preparing spawn area: 90%
-[07:11:34] [Worker-Main-12/INFO]: Preparing spawn area: 96%
-[07:11:34] [Server thread/INFO]: Time elapsed: 4966 ms
-[07:11:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[07:11:35] [Server thread/INFO]: Preparing spawn area: 0%
-[07:11:35] [Server thread/INFO]: Preparing spawn area: 0%
-[07:11:35] [Worker-Main-14/INFO]: Preparing spawn area: 90%
-[07:11:35] [Server thread/INFO]: Time elapsed: 1124 ms
-[07:11:35] [Server thread/INFO]: [InventoryRollbackPlus] Enabling InventoryRollbackPlus v1.8.3
-[07:11:35] [Server thread/INFO]: [InventoryRollbackPlus] Attempting support for version: 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5)
-[07:11:35] [Server thread/INFO]: [InventoryRollbackPlus] Using CraftBukkit version: v1_16_R3
-[07:11:35] [Server thread/INFO]: [InventoryRollbackPlus] Inventory backup data is set to save to: YAML
-[07:11:35] [Server thread/INFO]: [InventoryRollbackPlus] bStats are enabled
-[07:11:35] [Server thread/INFO]: [InventoryRollbackPlus] ----------------------------------------
-[07:11:35] [Server thread/INFO]: [InventoryRollbackPlus] We recommend updating your server to use Paper :)
-[07:11:35] [Server thread/INFO]: [InventoryRollbackPlus] Paper significantly reduces lag spikes among other benefits.
-[07:11:35] [Server thread/INFO]: [InventoryRollbackPlus] Learn more at: https://papermc.io/
-[07:11:35] [Server thread/INFO]: [InventoryRollbackPlus] ----------------------------------------
-[07:11:36] [Server thread/INFO]: [InventoryRollbackPlus] Tests completed: 5, Skipped: 0, Failed: 0
-[07:11:36] [Server thread/INFO]: [InventoryRollbackPlus] All tests passed successfully.
-[07:11:36] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[07:11:36] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[07:11:36] [Server thread/INFO]: [ClearLag] Loading modules...
-[07:11:36] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[07:11:36] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[07:11:36] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[07:11:36] [Thread-17/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[07:11:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
-[07:11:36] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.16
-[07:11:36] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.16.5-R0.1
-[07:11:36] [Server thread/WARN]: [voicechat] Vanish plugin integration is not supported
-[07:11:36] [Server thread/INFO]: [voicechat] Compatibility version 20
-[07:11:36] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[07:11:36] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[07:11:36] [Server thread/INFO]: [LPC] Enabling LPC v3.7.1
-[07:11:36] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[07:11:36] [Thread-17/INFO]: [ClearLag] No updates found!
-[07:11:36] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[07:11:37] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[07:11:37] [Server thread/INFO]: No kits found to migrate.
-[07:11:37] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[07:11:37] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
-[07:11:37] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[07:11:37] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[07:11:37] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
-[07:11:37] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
-[07:11:37] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[07:11:37] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[07:11:37] [Server thread/INFO]: Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[07:11:37] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[07:11:37] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[07:11:37] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
-[07:11:37] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
-[07:11:37] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
-[07:11:37] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[07:11:37] [Server thread/INFO]: Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[07:11:37] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[07:11:37] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
-[07:11:37] [Server thread/INFO]: Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[07:11:37] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[07:11:37] [Server thread/INFO]: Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[07:11:37] [Server thread/INFO]: Selected Bukkit Material Tag Provider as the provider for MaterialTagProvider
-[07:11:37] [Server thread/INFO]: Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[07:11:37] [Server thread/INFO]: Loaded 43880 items from items.json.
-[07:11:37] [Server thread/INFO]: Using locale en_US
-[07:11:37] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[07:11:37] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[07:11:37] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[07:11:37] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[07:11:37] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
-[07:11:37] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[07:11:37] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[07:11:38] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[07:11:38] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[07:11:38] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[07:11:38] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/data/plugins/Essentials/spawn.yml'
-[07:11:38] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[07:11:38] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[07:11:38] [Server thread/INFO]: [TAB] Enabling TAB v6.0.1
-[07:11:38] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.v1_16_R3.NMSImplementationProvider
-[07:11:38] [Server thread/INFO]: [TAB] Enabled in 194ms
-[07:11:38] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
-[07:11:38] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.MANGROVE
-[07:11:38] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.TALL_MANGROVE
-[07:11:38] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.CHERRY
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[07:11:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[07:11:38] [Server thread/INFO]: [WorldGuard] Loading region data...
-[07:11:38] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v23.1
-[07:11:38] [Server thread/WARN]: [CoreProtect] Loaded class com.sun.jna.Platform from AuthMe v5.6.0-bCUSTOM which is not a depend, softdepend or loadbefore of this plugin.
-[07:11:39] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
-[07:11:39] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[07:11:39] [Server thread/INFO]: --------------------
-[07:11:39] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[07:11:39] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[07:11:39] [Server thread/INFO]: --------------------
-[07:11:39] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.5
-[07:11:39] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.2
-[07:11:39] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[07:11:39] [Server thread/INFO]: Attempting to login to Discord...
-[07:11:39] [Server thread/ERROR]: An error occurred while logging into Discord, which has caused the plugin to disable itself: 
+[18:37:23] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:37:24] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[18:37:24] [Worker-Main-13/INFO]: Loaded 7 recipes
+[18:37:25] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[18:37:25] [Server thread/INFO]: Loading properties
+[18:37:26] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[18:37:26] [Server thread/INFO]: Debug logging is disabled
+[18:37:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:37:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:37:26] [Server thread/INFO]: Default game type: SURVIVAL
+[18:37:26] [Server thread/INFO]: Generating keypair
+[18:37:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:37:26] [Server thread/INFO]: Using epoll channel type
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loading 5 libraries... please wait
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
+[18:37:28] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-legacy/4.20.0/adventure-text-serializer-legacy-4.20.0.jar
+[18:37:28] [Server thread/INFO]: [InventoryRollbackPlus] Loading InventoryRollbackPlus v1.8.3
+[18:37:28] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[18:37:28] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
+[18:37:28] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
+[18:37:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:37:29] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:37:29] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:37:29] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:37:29] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:37:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:37:29] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:37:29] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[18:37:29] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[18:37:29] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.42
+[18:37:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:37:29] [Server thread/INFO]: [voicechat] Loading voicechat v2.6.16
+[18:37:29] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.12.0
+[18:37:29] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[18:37:29] [Server thread/INFO]: [LPC] Loading LPC v3.7.1
+[18:37:29] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[18:37:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7313cebc]
+[18:37:30] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.2
+[18:37:30] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.2
+[18:37:30] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[18:37:30] [Server thread/INFO]: [TAB] Loading TAB v6.0.1
+[18:37:30] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[18:37:30] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v23.1
+[18:37:30] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.30.5
+[18:37:30] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.21.2
+[18:37:30] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v7.0.3
+[18:37:30] [Server thread/INFO]: [LWC] Loading LWC v2.2.8-f367129
+[18:37:30] [Server thread/INFO]: [SimpleClans] Loading SimpleClans v2.19.2-05e7abc
+[18:37:30] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.2.2
+[18:37:30] [Server thread/INFO]: Loading EssentialsDiscordLink v2.21.2
+[18:37:30] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.42
+[18:37:31] [Server thread/INFO]:         __    
+[18:37:31] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.42
+[18:37:31] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[18:37:31] [Server thread/INFO]: 
+[18:37:31] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:37:31] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:37:31] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:37:32] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1626ms)
+[18:37:32] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.0
+[18:37:32] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
+[18:37:33] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 16).[0;39m
+[18:37:33] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
+[18:37:33] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
+[18:37:33] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:37:33] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.2 which is not a depend, softdepend or loadbefore of this plugin.
+[18:37:33] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:37:33] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:37:33] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:37:33] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:37:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[18:37:33] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:37:33] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:37:34] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[18:37:35] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:37:35] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:37:35] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:37:35] [Server thread/INFO]: [WorldEdit]   
+[18:37:35] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[18:37:35] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[18:37:35] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[18:37:35] [Server thread/INFO]: [WorldEdit]   
+[18:37:35] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[18:37:35] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[18:37:35] [Server thread/INFO]: [WorldEdit]   
+[18:37:35] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[18:37:35] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[18:37:35] [Server thread/INFO]: [WorldEdit]   
+[18:37:35] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[18:37:35] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:37:35] [Server thread/INFO]: [LWC] Enabling LWC v2.2.8-f367129
+[18:37:35] [Server thread/INFO]: [LWC] Connecting to SQLite
+[18:37:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:37:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:37:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:37:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:37:35] [Server thread/INFO]: Preparing level "world"
+[18:37:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:37:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:37:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:37:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:37:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:37:35] [Server thread/INFO]: Max TNT Explosions: 100
+[18:37:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:37:35] [Server thread/INFO]: Mob Spawn Range: 6
+[18:37:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:37:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:37:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:37:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:37:35] [Server thread/INFO]: View Distance: 10
+[18:37:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:37:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:37:35] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:37:35] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:37:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:37:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:37:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:37:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:37:35] [Server thread/INFO]: Max TNT Explosions: 100
+[18:37:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:37:35] [Server thread/INFO]: Mob Spawn Range: 6
+[18:37:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:37:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:37:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:37:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:37:35] [Server thread/INFO]: View Distance: 10
+[18:37:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:37:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:37:35] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:37:35] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:37:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:37:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:37:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:37:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:37:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:37:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:37:36] [Server thread/INFO]: Max TNT Explosions: 100
+[18:37:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:37:36] [Server thread/INFO]: Mob Spawn Range: 6
+[18:37:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:37:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:37:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:37:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:37:36] [Server thread/INFO]: View Distance: 10
+[18:37:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:37:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:37:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:37:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:37:37] [Server thread/INFO]: Preparing spawn area: 0%
+[18:37:37] [Server thread/INFO]: Preparing spawn area: 0%
+[18:37:37] [Server thread/INFO]: Preparing spawn area: 0%
+[18:37:37] [Server thread/INFO]: Preparing spawn area: 43%
+[18:37:40] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[18:37:40] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[18:37:40] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[18:37:40] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[18:37:40] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[18:37:40] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[18:37:41] [Worker-Main-9/INFO]: Preparing spawn area: 97%
+[18:37:41] [Server thread/INFO]: Time elapsed: 5425 ms
+[18:37:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:37:42] [Server thread/INFO]: Preparing spawn area: 0%
+[18:37:42] [Server thread/INFO]: Preparing spawn area: 0%
+[18:37:42] [Worker-Main-11/INFO]: Preparing spawn area: 92%
+[18:37:42] [Worker-Main-10/INFO]: Preparing spawn area: 92%
+[18:37:43] [Worker-Main-14/INFO]: Preparing spawn area: 96%
+[18:37:43] [Server thread/INFO]: Time elapsed: 2352 ms
+[18:37:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:37:44] [Server thread/INFO]: Preparing spawn area: 0%
+[18:37:44] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[18:37:44] [Server thread/INFO]: Time elapsed: 816 ms
+[18:37:44] [Server thread/INFO]: [InventoryRollbackPlus] Enabling InventoryRollbackPlus v1.8.3
+[18:37:44] [Server thread/INFO]: [InventoryRollbackPlus] Attempting support for version: 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5)
+[18:37:44] [Server thread/INFO]: [InventoryRollbackPlus] Using CraftBukkit version: v1_16_R3
+[18:37:44] [Server thread/INFO]: [InventoryRollbackPlus] Inventory backup data is set to save to: YAML
+[18:37:44] [Server thread/INFO]: [InventoryRollbackPlus] bStats are enabled
+[18:37:44] [Server thread/INFO]: [InventoryRollbackPlus] ----------------------------------------
+[18:37:44] [Server thread/INFO]: [InventoryRollbackPlus] We recommend updating your server to use Paper :)
+[18:37:44] [Server thread/INFO]: [InventoryRollbackPlus] Paper significantly reduces lag spikes among other benefits.
+[18:37:44] [Server thread/INFO]: [InventoryRollbackPlus] Learn more at: https://papermc.io/
+[18:37:44] [Server thread/INFO]: [InventoryRollbackPlus] ----------------------------------------
+[18:37:45] [Server thread/INFO]: [InventoryRollbackPlus] Tests completed: 5, Skipped: 0, Failed: 0
+[18:37:45] [Server thread/INFO]: [InventoryRollbackPlus] All tests passed successfully.
+[18:37:45] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[18:37:45] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[18:37:45] [Server thread/INFO]: [ClearLag] Loading modules...
+[18:37:45] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[18:37:45] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[18:37:45] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[18:37:45] [Thread-16/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[18:37:45] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
+[18:37:45] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[18:37:45] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.16
+[18:37:45] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.16.5-R0.1
+[18:37:45] [Server thread/WARN]: [voicechat] Vanish plugin integration is not supported
+[18:37:45] [Server thread/INFO]: [voicechat] Compatibility version 20
+[18:37:45] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[18:37:45] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[18:37:45] [Server thread/INFO]: [LPC] Enabling LPC v3.7.1
+[18:37:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[18:37:45] [Thread-16/INFO]: [ClearLag] No updates found!
+[18:37:45] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:37:45] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:37:45] [Server thread/INFO]: No kits found to migrate.
+[18:37:45] [Server thread/INFO]: Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[18:37:45] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[18:37:45] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
+[18:37:45] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
+[18:37:45] [Server thread/INFO]: Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[18:37:45] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[18:37:45] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
+[18:37:45] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[18:37:45] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[18:37:45] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[18:37:45] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
+[18:37:45] [Server thread/INFO]: Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[18:37:45] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[18:37:45] [Server thread/INFO]: Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[18:37:45] [Server thread/INFO]: Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[18:37:45] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[18:37:45] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
+[18:37:45] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[18:37:45] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[18:37:45] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[18:37:45] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[18:37:45] [Server thread/INFO]: Selected Bukkit Material Tag Provider as the provider for MaterialTagProvider
+[18:37:45] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[18:37:45] [Server thread/INFO]: Loaded 43880 items from items.json.
+[18:37:45] [Server thread/INFO]: Using locale en_US
+[18:37:45] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:37:45] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:37:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:37:45] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[18:37:45] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[18:37:45] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:37:45] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[18:37:45] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[18:37:45] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[18:37:45] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[18:37:45] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/data/plugins/Essentials/spawn.yml'
+[18:37:46] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[18:37:46] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[18:37:46] [Server thread/INFO]: [TAB] Enabling TAB v6.0.1
+[18:37:46] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.v1_16_R3.NMSImplementationProvider
+[18:37:46] [Server thread/INFO]: [TAB] Enabled in 124ms
+[18:37:46] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[18:37:46] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.MANGROVE
+[18:37:46] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.TALL_MANGROVE
+[18:37:46] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.CHERRY
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:37:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:37:46] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:37:46] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v23.1
+[18:37:46] [Server thread/WARN]: [CoreProtect] Loaded class com.sun.jna.Platform from AuthMe v5.6.0-bCUSTOM which is not a depend, softdepend or loadbefore of this plugin.
+[18:37:46] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
+[18:37:46] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[18:37:46] [Server thread/INFO]: --------------------
+[18:37:46] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[18:37:46] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[18:37:46] [Server thread/INFO]: --------------------
+[18:37:46] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.5
+[18:37:46] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.2
+[18:37:46] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:37:46] [Server thread/INFO]: Attempting to login to Discord...
+[18:37:46] [Server thread/ERROR]: An error occurred while logging into Discord, which has caused the plugin to disable itself: 
 No token provided! Please follow the tutorial in the config in order to setup the plugin.
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.0.3
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing bukkit meta...
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.16.5...
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[07:11:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[07:11:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 688ms to complete
-[07:11:40] [Server thread/INFO]: [SimpleClans] Enabling SimpleClans v2.19.2-05e7abc
-[07:11:40] [Server thread/INFO]: [SimpleClans] SQLite Connection successful
-[07:11:40] [Server thread/INFO]: [SimpleClans] Clans: 1
-[07:11:40] [Server thread/INFO]: [SimpleClans] Clan players: 4
-[07:11:40] [Server thread/INFO]: [SimpleClans] Registering 4 chat handlers...
-[07:11:40] [Server thread/INFO]: [SimpleClans] Registering 12 command contexts...
-[07:11:40] [Server thread/INFO]: [SimpleClans] Registering 15 base commands...
-[07:11:40] [Server thread/INFO]: [SimpleClans] Registering 32 command conditions...
-[07:11:40] [Server thread/INFO]: [SimpleClans] Registering 19 command completions...
-[07:11:40] [Server thread/INFO]: [SimpleClans] Multithreading: true
-[07:11:40] [Server thread/INFO]: [SimpleClans] BungeeCord: false
-[07:11:40] [Server thread/INFO]: [SimpleClans] HEX support: true
-[07:11:40] [Server thread/INFO]: [SimpleClans] Help us translate SimpleClans to your language! Access https://crowdin.com/project/simpleclans/
-[07:11:40] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.2.2
-[07:11:40] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
-[07:11:40] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
-[07:11:41] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_16_R3
-[07:11:41] [Server thread/INFO]: [AuctionHouse] Enabled DiscordSRV support
-[07:11:41] [Server thread/INFO]: [AuctionHouse] Using en_us locale
-[07:11:41] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
-[07:11:41] [Server thread/INFO]: Enabling EssentialsDiscordLink v2.21.2
-[07:11:41] [Server thread/ERROR]: Error occurred while enabling EssentialsDiscordLink v2.21.2 (Is it up to date?)
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.0.3
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing bukkit meta...
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.16.5...
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[18:37:46] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 282ms to complete
+[18:37:46] [Server thread/INFO]: [SimpleClans] Enabling SimpleClans v2.19.2-05e7abc
+[18:37:47] [Server thread/INFO]: [SimpleClans] SQLite Connection successful
+[18:37:47] [Server thread/INFO]: [SimpleClans] Clans: 1
+[18:37:47] [Server thread/INFO]: [SimpleClans] Clan players: 4
+[18:37:47] [Server thread/INFO]: [SimpleClans] Registering 4 chat handlers...
+[18:37:47] [Server thread/INFO]: [SimpleClans] Registering 12 command contexts...
+[18:37:47] [Server thread/INFO]: [SimpleClans] Registering 15 base commands...
+[18:37:47] [Server thread/INFO]: [SimpleClans] Registering 32 command conditions...
+[18:37:47] [Server thread/INFO]: [SimpleClans] Registering 19 command completions...
+[18:37:47] [Server thread/INFO]: [SimpleClans] Multithreading: true
+[18:37:47] [Server thread/INFO]: [SimpleClans] BungeeCord: false
+[18:37:47] [Server thread/INFO]: [SimpleClans] HEX support: true
+[18:37:47] [Server thread/INFO]: [SimpleClans] Help us translate SimpleClans to your language! Access https://crowdin.com/project/simpleclans/
+[18:37:47] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.2.2
+[18:37:47] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[18:37:47] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[18:37:47] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_16_R3
+[18:37:47] [Server thread/INFO]: [AuctionHouse] Enabled DiscordSRV support
+[18:37:47] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[18:37:47] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
+[18:37:47] [Server thread/INFO]: Enabling EssentialsDiscordLink v2.21.2
+[18:37:47] [Server thread/ERROR]: Error occurred while enabling EssentialsDiscordLink v2.21.2 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "net.essentialsx.api.v2.services.discord.DiscordService.getInteractionController()" because "this.api" is null
 	at net.essentialsx.discordlink.EssentialsDiscordLink.onEnable(EssentialsDiscordLink.java:69) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
@@ -398,454 +392,330 @@ java.lang.NullPointerException: Cannot invoke "net.essentialsx.api.v2.services.d
 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:928) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
 	at java.lang.Thread.run(Unknown Source) [?:?]
-[07:11:41] [pool-51-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (da9e027f7acd76e0f91d53a11e5b53832ac36e92)
-[07:11:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:11:41] [Server thread/INFO]: Done (19.535s)! For help, type "help"
-[07:11:41] [Server thread/INFO]: Starting remote control listener
-[07:11:41] [Server thread/INFO]: Thread RCON Listener started
-[07:11:41] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[07:11:41] [Craft Scheduler Thread - 0/INFO]: [InventoryRollbackPlus] Checking for updates...
-[07:11:41] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
-[07:11:41] [Craft Scheduler Thread - 0/INFO]: [InventoryRollbackPlus] Warning: You are running an experimental/development build! Proceed with caution.
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.12.0[0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m2903414[0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[07:11:41] [Server thread/INFO]: [voicechat] Loading plugins
-[07:11:41] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer or receive priority support? Become a supporter: [33;1mhttps://skinsrestorer.net/pricing[0;39m
-[07:11:41] [Server thread/INFO]: [voicechat] Initializing plugins
-[07:11:41] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[07:11:41] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[07:11:41] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'again-incident.gl.at.ply.gg:3673'
-[07:11:41] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[07:11:41] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:24454
-[07:11:41] [Craft Scheduler Thread - 4/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[07:11:41] [Craft Scheduler Thread - 4/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[07:11:41] [Craft Scheduler Thread - 4/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[07:11:41] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
-[07:11:41] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
-[07:11:41] [Craft Scheduler Thread - 4/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[07:11:41] [Server thread/INFO]: [SimpleClans] Registered WorldGuardProvider successfully
-[07:11:41] [Server thread/WARN]: [SimpleClans] Error registering provider WorldGuard6Provider
-[07:11:41] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
-[07:11:41] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
-[07:11:42] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[07:11:42] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
-[07:11:42] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
-[07:11:42] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.9.0, you're on: 4.0.1
-[07:12:03] [User Authenticator #1/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[07:12:04] [Server thread/INFO]: MrRetex[/172.18.0.1:34258] logged in with entity id 107 at ([world]605.3000000119209, 63.875, -153.76670402632357)
-[07:12:04] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[07:12:04] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[07:12:16] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[07:12:16] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[07:12:16] [Server thread/INFO]: MrRetex left the game
-[07:12:47] [User Authenticator #2/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[07:12:48] [Server thread/INFO]: MrRetex[/172.18.0.1:40824] logged in with entity id 263 at ([world]605.3000000119209, 63.875, -153.76670402632357)
-[07:12:48] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[07:12:48] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[07:12:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[07:12:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[07:12:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[07:12:55] [Craft Scheduler Thread - 1/INFO]: [AuthMe] The user MrRetex has 9 accounts:
-[07:12:55] [Craft Scheduler Thread - 1/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
-[07:12:55] [Craft Scheduler Thread - 1/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
-[07:15:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: Read timed out
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] An unknown error occurred building JDA...
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.jda.api.exceptions.ErrorResponseException: -1: java.net.SocketTimeoutException
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.RestActionImpl.complete(RestActionImpl.java:227)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.requests.RestAction.complete(RestAction.java:633)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.utils.SessionControllerAdapter.getGateway(SessionControllerAdapter.java:86)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.getGateway(JDAImpl.java:317)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.login(JDAImpl.java:275)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.login(JDAImpl.java:267)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.JDABuilder.build(JDABuilder.java:1874)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.DiscordSRV.init(DiscordSRV.java:905)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] Caused by: java.net.SocketTimeoutException: Read timed out
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.nio.ch.NioSocketImpl.timedRead(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.nio.ch.NioSocketImpl.implRead(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.nio.ch.NioSocketImpl.read(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.nio.ch.NioSocketImpl$1.read(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.net.Socket$SocketInputStream.read(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RealConnection.connectTls(RealConnection.java:320)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RealConnection.establishProtocol(RealConnection.java:284)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RealConnection.connect(RealConnection.java:169)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:252)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	... 1 more
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] Caused by: github.scarsz.discordsrv.dependencies.jda.api.exceptions.ContextException
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.exceptions.ContextException.here(ContextException.java:54)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.requests.Request.<init>(Request.java:71)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.requests.RestFuture.<init>(RestFuture.java:36)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.RestActionImpl.submit(RestActionImpl.java:209)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.RestActionImpl.complete(RestActionImpl.java:219)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.requests.RestAction.complete(RestAction.java:633)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.utils.SessionControllerAdapter.getGateway(SessionControllerAdapter.java:86)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.getGateway(JDAImpl.java:317)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.login(JDAImpl.java:275)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.login(JDAImpl.java:267)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.JDABuilder.build(JDABuilder.java:1874)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.DiscordSRV.init(DiscordSRV.java:905)
-[07:15:00] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	... 1 more
-[07:15:12] [Server thread/INFO]: MrRetex issued server command: /gm 1
-[07:18:26] [Server thread/INFO]: MrRetex issued server command: /gm 0
-[07:20:18] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:23:04] [Server thread/INFO]: MrRetex issued server command: /gm 1
-[07:23:18] [Server thread/INFO]: MrRetex issued server command: /gm 0
-[07:28:47] [Server thread/INFO]: MrRetex has made the advancement [Ice Bucket Challenge]
-[07:29:00] [Server thread/INFO]: MrRetex issued server command: /enchant efficiency 5
-[07:29:03] [Server thread/INFO]: MrRetex issued server command: /enchant mending
-[07:31:26] [Server thread/INFO]: MrRetex issued server command: /god
-[07:31:38] [Server thread/INFO]: MrRetex issued server command: /god
-[07:34:35] [Server thread/INFO]: MrRetex issued server command: /enchant sharpness 5
-[07:34:36] [Server thread/INFO]: MrRetex issued server command: /enchant mending
-[07:34:44] [Server thread/INFO]: MrRetex issued server command: /enchant fire 2
-[07:35:53] [Server thread/INFO]: MrRetex issued server command: /fly
-[07:37:06] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:37:56] [Server thread/INFO]: MrRetex has made the advancement [Not Today, Thank You]
-[07:38:55] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:38:58] [Server thread/INFO]: MrRetex issued server command: /fly
-[07:44:33] [Server thread/INFO]: MrRetex has made the advancement [We Need to Go Deeper]
-[07:46:25] [Server thread/INFO]: MrRetex issued server command: /locate fortress
-[07:46:28] [Server thread/INFO]: MrRetex issued server command: /tp @s -208 ~ -352
-[07:46:33] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex -208 ~ -352
-[07:47:14] [Server thread/INFO]: MrRetex has made the advancement [A Terrible Fortress]
-[07:47:34] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:48:16] [Server thread/INFO]: MrRetex issued server command: /rc
-[07:48:18] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:48:23] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:48:34] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:48:58] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:49:34] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:50:11] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:50:31] [Server thread/INFO]: MrRetex issued server command: /ec
-[07:50:40] [Server thread/INFO]: MrRetex issued server command: /craft
-[07:52:12] [Server thread/INFO]: MrRetex has made the advancement [Into Fire]
-[07:56:14] [Server thread/INFO]: MrRetex issued server command: /god
-[07:56:17] [Server thread/INFO]: MrRetex issued server command: /fly
-[07:57:30] [Server thread/INFO]: MrRetex has completed the challenge [Return to Sender]
-[07:58:03] [Server thread/INFO]: MrRetex issued server command: /fly
-[07:58:05] [Server thread/INFO]: MrRetex issued server command: /god
-[07:58:41] [Server thread/INFO]: MrRetex issued server command: /god
-[07:59:08] [Server thread/INFO]: MrRetex issued server command: /fly
-[07:59:39] [Server thread/INFO]: MrRetex issued server command: /enchant luck 3
-[08:00:14] [Server thread/INFO]: MrRetex issued server command: /fly
-[08:00:27] [Server thread/INFO]: MrRetex issued server command: /fly
-[08:01:33] [Server thread/INFO]: MrRetex issued server command: /god
-[08:03:58] [Server thread/INFO]: MrRetex burned to death
-[08:04:11] [Server thread/INFO]: MrRetex issued server command: /back
-[08:04:29] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex -208 ~ -352
-[08:04:48] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:night_vision 999999 255 true
-[08:04:48] [Server thread/INFO]: [MrRetex: Applied effect Night Vision to MrRetex]
-[08:05:21] [Server thread/INFO]: MrRetex was burnt to a crisp whilst fighting Blaze
-[08:05:27] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:night_vision 999999 255 true
-[08:05:27] [Server thread/INFO]: [MrRetex: Applied effect Night Vision to MrRetex]
-[08:05:28] [Server thread/INFO]: MrRetex issued server command: /god
-[08:05:31] [Server thread/INFO]: MrRetex issued server command: /back
-[08:05:38] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex -208 ~ -352
-[08:05:38] [Server thread/WARN]: MrRetex moved too quickly! -307.0,0.3806408046223453,-361.0
-[08:06:05] [Server thread/INFO]: MrRetex issued server command: /xp set MrRetex
-[08:06:17] [Server thread/INFO]: MrRetex issued server command: /xp set MrRetex 1l
-[08:06:22] [Server thread/INFO]: MrRetex issued server command: /xp set MrRetex 30l
-[08:06:34] [Server thread/INFO]: MrRetex issued server command: /xp set MrRetex 31l
-[08:06:37] [Server thread/INFO]: MrRetex issued server command: /xp set MrRetex 32l
-[08:06:41] [Server thread/INFO]: MrRetex issued server command: /xp set MrRetex 33l
-[08:07:30] [Server thread/INFO]: MrRetex issued server command: /xp show
-[08:07:41] [Server thread/INFO]: MrRetex issued server command: /xp give MrRetex 1
-[08:10:01] [Server thread/INFO]: MrRetex issued server command: /fly
-[08:10:05] [Server thread/INFO]: MrRetex issued server command: /god
-[08:10:08] [Server thread/INFO]: MrRetex issued server command: /back
-[08:10:08] [Server thread/WARN]: MrRetex moved too quickly! 295.9271851395006,15.0,337.4954467800756
-[08:10:10] [Server thread/INFO]: MrRetex issued server command: /back
-[08:10:20] [Server thread/INFO]: MrRetex issued server command: /xp show
-[08:10:26] [Server thread/INFO]: MrRetex issued server command: /kill
-[08:10:30] [Server thread/INFO]: MrRetex issued server command: /kill MrRetex
-[08:10:30] [Server thread/INFO]: MrRetex was burnt to a crisp whilst fighting Blaze
-[08:10:49] [Server thread/INFO]: MrRetex issued server command: /xp give MrRetex 1848
-[08:12:06] [Server thread/INFO]: MrRetex issued server command: /ec
-[08:12:19] [Server thread/INFO]: MrRetex issued server command: /ec
-[08:12:42] [Server thread/INFO]: MrRetex issued server command: /ec
-[08:16:54] [Server thread/INFO]: MrRetex issued server command: /give MrRetex apple 5
-[08:17:11] [Server thread/INFO]: MrRetex issued server command: /gm 1
-[08:18:39] [Server thread/INFO]: MrRetex issued server command: /gm -
-[08:18:40] [Server thread/INFO]: MrRetex issued server command: /gm 0
-[08:18:52] [Server thread/INFO]: MrRetex has made the advancement [Best Friends Forever]
-[08:19:23] [Server thread/INFO]: MrRetex issued server command: /craft
-[08:19:42] [Server thread/INFO]: MrRetex issued server command: /gm 1
-[08:19:51] [Server thread/INFO]: MrRetex issued server command: /gm 0
-[08:19:58] [Server thread/INFO]: MrRetex issued server command: /fly
-[08:20:28] [Server thread/INFO]: MrRetex issued server command: /fly
-[08:21:13] [Server thread/INFO]: MrRetex issued server command: /enchant mending 0
-[08:21:18] [Server thread/INFO]: MrRetex issued server command: /enchant sharpness 0
-[08:21:24] [Server thread/INFO]: MrRetex issued server command: /enchant fire 0
-[08:21:32] [Server thread/INFO]: MrRetex issued server command: /enchant efficiency 0
-[08:21:37] [Server thread/INFO]: MrRetex issued server command: /enchant mending 0
-[08:27:20] [Server thread/INFO]: MrRetex issued server command: /fix
-[08:27:24] [Server thread/INFO]: MrRetex issued server command: /fix
-[08:27:29] [Server thread/INFO]: MrRetex issued server command: /fix
-[08:27:34] [Server thread/INFO]: MrRetex issued server command: /fix
-[08:28:36] [Server thread/INFO]: MrRetex issued server command: /save-all
-[08:28:37] [Server thread/INFO]: [MrRetex: Saved the game]
-[08:28:39] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[08:28:39] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[08:28:39] [Server thread/INFO]: MrRetex left the game
-[08:55:32] [User Authenticator #3/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[08:55:32] [Server thread/INFO]: MrRetex[/172.18.0.1:43582] logged in with entity id 8049 at ([world]607.4198471450153, 62.9375, -151.19309005810052)
-[08:55:33] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[08:55:33] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[08:55:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[08:55:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[08:55:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[08:55:46] [Craft Scheduler Thread - 21/INFO]: [AuthMe] The user MrRetex has 9 accounts:
-[08:55:46] [Craft Scheduler Thread - 21/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
-[08:55:46] [Craft Scheduler Thread - 21/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
-[08:55:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player c47f7a7b-c793-385d-9878-28368251e21b timed out
-[08:55:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player MrRetex
-[08:55:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to MrRetex
-[08:55:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[08:55:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[08:55:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[08:56:16] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:night_vision 999999 255 true
-[08:56:16] [Server thread/INFO]: [MrRetex: Applied effect Night Vision to MrRetex]
-[09:04:57] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[09:04:57] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[09:04:57] [Server thread/INFO]: MrRetex left the game
-[09:32:28] [User Authenticator #4/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[09:32:28] [Server thread/INFO]: MrRetex[/172.18.0.1:43048] logged in with entity id 8869 at ([world]599.7218091897583, 64.0, -151.4279951532905)
-[09:32:29] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[09:32:29] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[09:32:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[09:32:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[09:32:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[09:32:46] [Craft Scheduler Thread - 37/INFO]: [AuthMe] The user MrRetex has 9 accounts:
-[09:32:46] [Craft Scheduler Thread - 37/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
-[09:32:46] [Craft Scheduler Thread - 37/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
-[09:40:05] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[09:40:05] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[09:40:05] [Server thread/INFO]: MrRetex left the game
-[09:41:18] [User Authenticator #5/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[09:41:18] [Server thread/INFO]: MrRetex[/172.18.0.1:34866] logged in with entity id 9619 at ([world]608.5465486054103, 62.9375, -151.41355443483684)
-[09:41:19] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[09:41:19] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[09:41:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[09:41:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[09:41:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[09:41:40] [Craft Scheduler Thread - 40/INFO]: [AuthMe] The user MrRetex has 9 accounts:
-[09:41:40] [Craft Scheduler Thread - 40/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
-[09:41:40] [Craft Scheduler Thread - 40/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
-[09:44:44] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[09:44:44] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[09:44:44] [Server thread/INFO]: MrRetex left the game
-[09:51:05] [Thread-21/WARN]: org.sqlite.SQLiteException: [SQLITE_IOERR_SHMSIZE]  I/O error within xShmMap while trying to resize an existing shared memory segment (disk I/O error)
-[09:51:05] [Thread-21/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1012)
-[09:51:05] [Thread-21/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1024)
-[09:51:05] [Thread-21/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:989)
-[09:51:05] [Thread-21/WARN]: 	at org.sqlite.core.NativeDB._exec_utf8(Native Method)
-[09:51:05] [Thread-21/WARN]: 	at org.sqlite.core.NativeDB._exec(NativeDB.java:94)
-[09:51:05] [Thread-21/WARN]: 	at org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:102)
-[09:51:05] [Thread-21/WARN]: 	at net.coreprotect.database.Database.performCheckpoint(Database.java:117)
-[09:51:05] [Thread-21/WARN]: 	at net.coreprotect.consumer.process.Process.processConsumer(Process.java:78)
-[09:51:05] [Thread-21/WARN]: 	at net.coreprotect.consumer.Consumer.run(Consumer.java:133)
-[09:51:05] [Thread-21/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[09:51:06] [Thread-21/WARN]: org.sqlite.SQLiteException: [SQLITE_IOERR_SHMSIZE]  I/O error within xShmMap while trying to resize an existing shared memory segment (disk I/O error)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1012)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1024)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:989)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.core.NativeDB._exec_utf8(Native Method)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.core.NativeDB._exec(NativeDB.java:94)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:102)
-[09:51:06] [Thread-21/WARN]: 	at net.coreprotect.database.Database.performCheckpoint(Database.java:117)
-[09:51:06] [Thread-21/WARN]: 	at net.coreprotect.consumer.process.Process.processConsumer(Process.java:78)
-[09:51:06] [Thread-21/WARN]: 	at net.coreprotect.consumer.Consumer.run(Consumer.java:133)
-[09:51:06] [Thread-21/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[09:51:06] [Thread-21/WARN]: org.sqlite.SQLiteException: [SQLITE_IOERR_SHMSIZE]  I/O error within xShmMap while trying to resize an existing shared memory segment (disk I/O error)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1012)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1024)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:989)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.core.NativeDB._exec_utf8(Native Method)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.core.NativeDB._exec(NativeDB.java:94)
-[09:51:06] [Thread-21/WARN]: 	at org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:102)
-[09:51:06] [Thread-21/WARN]: 	at net.coreprotect.database.Database.performCheckpoint(Database.java:117)
-[09:51:06] [Thread-21/WARN]: 	at net.coreprotect.consumer.process.Process.processConsumer(Process.java:78)
-[09:51:06] [Thread-21/WARN]: 	at net.coreprotect.consumer.Consumer.run(Consumer.java:133)
-[09:51:06] [Thread-21/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[09:51:07] [Thread-21/WARN]: org.sqlite.SQLiteException: [SQLITE_IOERR_SHMSIZE]  I/O error within xShmMap while trying to resize an existing shared memory segment (disk I/O error)
-[09:51:07] [Thread-21/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1012)
-[09:51:07] [Thread-21/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1024)
-[09:51:07] [Thread-21/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:989)
-[09:51:07] [Thread-21/WARN]: 	at org.sqlite.core.NativeDB._exec_utf8(Native Method)
-[09:51:07] [Thread-21/WARN]: 	at org.sqlite.core.NativeDB._exec(NativeDB.java:94)
-[09:51:07] [Thread-21/WARN]: 	at org.sqlite.jdbc3.JDBC3Statement.[10:30:29] [User Authenticator #6/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[10:30:30] [Server thread/INFO]: MrRetex[/172.18.0.1:53398] logged in with entity id 10003 at ([world]608.5465486054103, 62.9375, -151.41355443483684)
-[10:30:30] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[10:30:30] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[10:30:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[10:30:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[10:30:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[10:30:40] [Craft Scheduler Thread - 57/INFO]: [AuthMe] The user MrRetex has 9 accounts:
-[10:30:40] [Craft Scheduler Thread - 57/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
-[10:30:40] [Craft Scheduler Thread - 57/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
-[10:39:36] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[10:39:36] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[10:39:36] [Server thread/INFO]: MrRetex left the game
-[10:40:35] [User Authenticator #7/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[10:40:36] [Server thread/INFO]: MrRetex[/172.18.0.1:33368] logged in with entity id 10746 at ([world]602.7376314385546, 62.9375, -152.99915184264512)
-[10:40:36] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[10:40:36] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[10:40:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[10:40:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[10:40:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[10:41:02] [Craft Scheduler Thread - 57/INFO]: [AuthMe] The user MrRetex has 9 accounts:
-[10:41:02] [Craft Scheduler Thread - 57/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
-[10:41:02] [Craft Scheduler Thread - 57/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
-[10:43:42] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[10:43:42] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[10:43:42] [Server thread/INFO]: MrRetex left the game
-[10:44:39] [User Authenticator #8/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[10:44:39] [Server thread/INFO]: MrRetex[/172.18.0.1:40108] logged in with entity id 11081 at ([world]601.3118973317083, 63.0, -146.89303884673635)
-[10:44:40] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[10:44:40] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[10:44:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[10:44:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[10:44:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[10:44:49] [Craft Scheduler Thread - 67/INFO]: [AuthMe] The user MrRetex has 9 accounts:
-[10:44:49] [Craft Scheduler Thread - 67/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
-[10:44:49] [Craft Scheduler Thread - 67/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
-[10:45:55] [Server thread/INFO]: MrRetex issued server command: /give MrRetex torch 1
-[10:47:09] [Server thread/INFO]: MrRetex issued server command: /effect clear MrRetex
-[10:47:09] [Server thread/INFO]: [MrRetex: Removed every effect from MrRetex]
-[10:48:38] [Server thread/INFO]: MrRetex issued server command: /god
-[10:48:40] [Server thread/INFO]: MrRetex issued server command: /god
-[10:50:41] [Server thread/INFO]: MrRetex issued server command: /ec
-[10:51:26] [Server thread/INFO]: MrRetex issued server command: /enchant mending
-[10:51:34] [Server thread/INFO]: MrRetex issued server command: /enchant mending -
-[10:51:37] [Server thread/INFO]: MrRetex issued server command: /enchant mending 0
-[10:51:40] [Server thread/INFO]: MrRetex issued server command: /enchant mending -1
-[11:00:20] [Server thread/INFO]: MrRetex issued server command: /god
-[11:00:21] [Server thread/INFO]: MrRetex issued server command: /god
-[11:10:35] [Server thread/INFO]: MrRetex issued server command: /ec
-[11:10:50] [Server thread/INFO]: MrRetex issued server command: /ec
-[11:13:56] [Server thread/INFO]: MrRetex issued server command: /give MrRetex oak_planks 64
-[11:15:20] [Server thread/INFO]: MrRetex issued server command: /give MrRetex oak_planks 64
-[11:16:45] [Server thread/INFO]: MrRetex issued server command: /give MrRetex oak_planks 64
-[11:17:30] [Server thread/INFO]: MrRetex issued server command: /give MrRetex oak_planks 64
-[11:18:18] [Server thread/INFO]: MrRetex issued server command: /fly
-[11:18:39] [Server thread/INFO]: MrRetex issued server command: /fly
-[11:18:58] [Server thread/INFO]: MrRetex issued server command: /give MrRetex oak_planks 64
-[11:19:28] [Server thread/INFO]: MrRetex issued server command: /give MrRetex oak_planks 64
-[11:20:25] [Server thread/INFO]: MrRetex issued server command: /give MrRetex oak_planks 5
-[11:20:35] [Server thread/INFO]: MrRetex issued server command: /give MrRetex oak_planks 3
-[11:21:26] [Server thread/INFO]: MrRetex issued server command: /craft
-[11:21:56] [Server thread/INFO]: MrRetex issued server command: /craft
-[11:22:55] [Server thread/INFO]: MrRetex issued server command: /give MrRetex oak_planks 4
-[11:24:51] [Server thread/INFO]: MrRetex issued server command: /give MrRetex grass_block 1
-[11:25:08] [Server thread/INFO]: MrRetex issued server command: /give MrRetex glass 6
-[11:25:15] [Server thread/INFO]: MrRetex issued server command: /give MrRetex glass 6
-[11:25:18] [Server thread/INFO]: MrRetex issued server command: /give MrRetex glass 6
-[11:25:27] [Server thread/INFO]: MrRetex issued server command: /give MrRetex glass 1
-[11:26:27] [Server thread/INFO]: MrRetex issued server command: /give MrRetex oak_planks 20
-[11:29:14] [Server thread/INFO]: MrRetex issued server command: /clan
-[11:45:38] [Server thread/INFO]: MrRetex issued server command: /save-all
-[11:45:38] [Server thread/INFO]: [MrRetex: Saved the game]
-[11:45:47] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[11:45:47] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[11:45:47] [Server thread/INFO]: MrRetex left the game
-[11:46:21] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:46:21] [Server thread/INFO]: [Rcon: Stopping the server]
-[11:46:21] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:46:21] [Server thread/INFO]: Stopping server
-[11:46:21] [Server thread/INFO]: Disabling EssentialsDiscordLink v2.21.2
-[11:46:21] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v2.2.2
-[11:46:21] [Server thread/INFO]: [AuctionHouse] Saving auctions data
-[11:46:21] [Server thread/INFO]: [SimpleClans] Disabling SimpleClans v2.19.2-05e7abc
-[11:46:21] [Server thread/INFO]: [LWC] Disabling LWC v2.2.8-f367129
-[11:46:21] [Server thread/INFO]: [LWC] Flushing protection updates (0)
-[11:46:21] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v7.0.3
-[11:46:21] [Server thread/INFO]: Disabling EssentialsDiscord v2.21.2
-[11:46:21] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.30.5
-[11:46:21] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v23.1
-[11:46:21] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[11:46:22] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v23.1
-[11:46:22] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
-[11:46:22] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[11:46:22] [Server thread/INFO]: [TAB] Disabling TAB v6.0.1
-[11:46:22] [Server thread/INFO]: [TAB] Disabled in 1ms
-[11:46:22] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[11:46:22] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[11:46:22] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[11:46:22] [Server thread/INFO]: Disabling EssentialsChat v2.21.2
-[11:46:22] [Server thread/INFO]: Disabling Essentials v2.21.2
-[11:46:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[11:46:22] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
-[11:46:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[11:46:22] [Server thread/INFO]: [LPC] Disabling LPC v3.7.1
-[11:46:22] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[11:46:22] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.0
-[11:46:22] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.16
-[11:46:22] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.42
-[11:46:22] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[11:46:22] [Server thread/INFO]: [LuckPerms] Closing storage...
-[11:46:22] [Server thread/INFO]: [LuckPerms] Goodbye!
-[11:46:22] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.0.1
-[11:46:22] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[11:46:22] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[11:46:22] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[11:46:22] [Server thread/INFO]: [InventoryRollbackPlus] Disabling InventoryRollbackPlus v1.8.3
-[11:46:22] [Server thread/INFO]: [InventoryRollbackPlus] Setting shutdown state
-[11:46:22] [Server thread/INFO]: [InventoryRollbackPlus] Saving player inventories...
-[11:46:22] [Server thread/INFO]: [InventoryRollbackPlus] Done saving player inventories!
-[11:46:22] [Server thread/INFO]: [InventoryRollbackPlus] Plugin is disabled!
-[11:46:22] [Server thread/INFO]: Saving players
-[11:46:22] [Server thread/INFO]: Saving worlds
-[11:46:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:46:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:46:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:46:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:46:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:46:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:46:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:46:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:46:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:46:23] [Server thread/INFO]: Thread RCON Listener stopped
+[18:37:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:37:47] [Server thread/INFO]: Done (12.194s)! For help, type "help"
+[18:37:47] [Server thread/INFO]: Starting remote control listener
+[18:37:47] [Server thread/INFO]: Thread RCON Listener started
+[18:37:47] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[18:37:47] [Craft Scheduler Thread - 0/INFO]: [InventoryRollbackPlus] Checking for updates...
+[18:37:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+[18:37:47] [Server thread/INFO]: [voicechat] Loading plugins
+[18:37:47] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[18:37:47] [Server thread/INFO]: [voicechat] Initializing plugins
+[18:37:47] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[18:37:47] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18:37:47] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'again-incident.gl.at.ply.gg:3673'
+[18:37:47] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:37:47] [Craft Scheduler Thread - 0/INFO]: [InventoryRollbackPlus] Warning: You are running an experimental/development build! Proceed with caution.
+[18:37:47] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:24454
+[18:37:47] [Craft Scheduler Thread - 5/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[18:37:47] [Craft Scheduler Thread - 5/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[18:37:47] [Craft Scheduler Thread - 4/INFO]: §6Fetching version information...
+[18:37:47] [Craft Scheduler Thread - 5/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[18:37:47] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[18:37:47] [Craft Scheduler Thread - 5/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[18:37:47] [Server thread/INFO]: [SimpleClans] Registered WorldGuardProvider successfully
+[18:37:47] [Server thread/WARN]: [SimpleClans] Error registering provider WorldGuard6Provider
+[18:37:47] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
+[18:37:47] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
+[18:37:47] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:37:47] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[18:37:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@61684f92[id=c47f7a7b-c793-385d-9878-28368251e21b,name=MrRetex,properties={},legacy=false] (/172.18.0.1:45564) lost connection: Disconnected
+[18:37:47] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[18:37:47] [User Authenticator #1/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.12.0[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m2903414[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[18:37:47] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer or receive priority support? Become a supporter: [33;1mhttps://skinsrestorer.net/pricing[0;39m
+[18:37:47] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.9.1, you're on: 4.0.1
+[18:37:49] [pool-51-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (da9e027f7acd76e0f91d53a11e5b53832ac36e92)
+[18:37:53] [User Authenticator #2/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
+[18:37:53] [Server thread/INFO]: MrRetex[/172.18.0.1:54998] logged in with entity id 91 at ([world]609.4903491334001, 63.0, -156.68061890355023)
+[18:37:53] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
+[18:37:53] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
+[18:37:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
+[18:37:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
+[18:37:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
+[18:37:59] [Craft Scheduler Thread - 2/INFO]: [AuthMe] The user MrRetex has 9 accounts:
+[18:37:59] [Craft Scheduler Thread - 2/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
+[18:37:59] [Craft Scheduler Thread - 2/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
+[18:38:08] [Server thread/INFO]: MrRetex issued server command: /holograms
+[18:38:14] [User Authenticator #3/INFO]: UUID of player BaFV is 3dc0ff36-d43f-3b8d-8a24-c193985c263d
+[18:38:15] [Server thread/INFO]: BaFV[/172.18.0.1:40900] logged in with entity id 243 at ([world]612.3760642698966, 63.0, -158.00579969576322)
+[18:38:15] [Server thread/INFO]: [voicechat] Received secret request of BaFV (20)
+[18:38:15] [Server thread/INFO]: [voicechat] Sent secret to BaFV
+[18:38:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3dc0ff36-d43f-3b8d-8a24-c193985c263d
+[18:38:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3dc0ff36-d43f-3b8d-8a24-c193985c263d
+[18:38:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player BaFV (3dc0ff36-d43f-3b8d-8a24-c193985c263d) successfully connected to voice chat
+[18:38:25] [Craft Scheduler Thread - 2/INFO]: [AuthMe] The user BaFV has 9 accounts:
+[18:38:25] [Craft Scheduler Thread - 2/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, §aBaFV§7.
+[18:38:25] [Craft Scheduler Thread - 2/INFO]: [AuthMe] BaFV logged in 172.18.0.1
+[18:38:57] [Server thread/INFO]: MrRetex issued server command: /hologram help
+[18:39:33] [Server thread/INFO]: MrRetex issued server command: /hologram create HOME "Los Santos PD
+[18:40:07] [Server thread/INFO]: MrRetex issued server command: /hologram edit HOME Los Santos PD
+[18:40:15] [Server thread/INFO]: MrRetex issued server command: /hologram edit HOME
+[18:40:42] [Server thread/INFO]: MrRetex issued server command: /hologram remove HOME
+[18:40:51] [Server thread/INFO]: MrRetex issued server command: /hologram create HOME Los Santos PD
+[18:40:56] [Server thread/INFO]: MrRetex issued server command: /fly
+[18:40:59] [Server thread/INFO]: MrRetex issued server command: /hologram remove HOME
+[18:41:03] [Server thread/INFO]: MrRetex issued server command: /hologram create HOME Los Santos PD
+[18:41:05] [Server thread/INFO]: MrRetex issued server command: /fly
+[18:41:07] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: Read timed out
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] An unknown error occurred building JDA...
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.jda.api.exceptions.ErrorResponseException: -1: java.net.SocketTimeoutException
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.RestActionImpl.complete(RestActionImpl.java:227)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.requests.RestAction.complete(RestAction.java:633)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.utils.SessionControllerAdapter.getGateway(SessionControllerAdapter.java:86)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.getGateway(JDAImpl.java:317)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.login(JDAImpl.java:275)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.login(JDAImpl.java:267)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.JDABuilder.build(JDABuilder.java:1874)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.DiscordSRV.init(DiscordSRV.java:905)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] Caused by: java.net.SocketTimeoutException: Read timed out
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.nio.ch.NioSocketImpl.timedRead(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.nio.ch.NioSocketImpl.implRead(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.nio.ch.NioSocketImpl.read(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.nio.ch.NioSocketImpl$1.read(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.net.Socket$SocketInputStream.read(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RealConnection.connectTls(RealConnection.java:320)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RealConnection.establishProtocol(RealConnection.java:284)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RealConnection.connect(RealConnection.java:169)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:252)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	... 1 more
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] Caused by: github.scarsz.discordsrv.dependencies.jda.api.exceptions.ContextException
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.exceptions.ContextException.here(ContextException.java:54)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.requests.Request.<init>(Request.java:71)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.requests.RestFuture.<init>(RestFuture.java:36)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.RestActionImpl.submit(RestActionImpl.java:209)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.RestActionImpl.complete(RestActionImpl.java:219)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.requests.RestAction.complete(RestAction.java:633)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.utils.SessionControllerAdapter.getGateway(SessionControllerAdapter.java:86)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.getGateway(JDAImpl.java:317)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.login(JDAImpl.java:275)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.login(JDAImpl.java:267)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.api.JDABuilder.build(JDABuilder.java:1874)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.DiscordSRV.init(DiscordSRV.java:905)
+[18:41:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] 	... 1 more
+[18:41:38] [Server thread/INFO]: MrRetex issued server command: /rg info
+[18:41:46] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[18:41:47] [Server thread/INFO]: MrRetex issued server command: /clan
+[18:42:04] [Server thread/INFO]: MrRetex issued server command: /clan
+[18:42:13] [Server thread/INFO]: MrRetex issued server command: /clan
+[18:42:29] [Server thread/INFO]: MrRetex issued server command: /clan
+[18:42:44] [Server thread/INFO]: [Clan Announce] [[OWNER] MrRetex] * BaFV has been given trusted status by MrRetex
+[18:43:06] [Server thread/INFO]: MrRetex issued server command: /clan
+[18:45:16] [Server thread/INFO]: BaFV has made the advancement [We Need to Go Deeper]
+[18:46:32] [Server thread/INFO]: MrRetex issued server command: /ec
+[18:46:44] [Server thread/INFO]: MrRetex issued server command: /god
+[18:46:51] [Server thread/INFO]: MrRetex issued server command: /tpa BaFV
+[18:46:58] [Server thread/INFO]: BaFV issued server command: /tpaccept
+[18:47:02] [Server thread/INFO]: MrRetex issued server command: /god
+[18:47:50] [Server thread/INFO]: MrRetex issued server command: /tpa BaFV
+[18:47:53] [Server thread/INFO]: BaFV issued server command: /tpaccept
+[18:52:51] [Server thread/INFO]: MrRetex issued server command: /tpa BaFV
+[18:52:57] [Server thread/INFO]: BaFV issued server command: /tpaccept
+[18:52:57] [Server thread/WARN]: MrRetex moved too quickly! -80.19999998807909,-3.0,36.22837020798099
+[18:54:32] [Server thread/INFO]: MrRetex issued server command: /tpa BaFV
+[18:54:34] [Server thread/INFO]: BaFV issued server command: /tpaccept
+[18:54:34] [Server thread/WARN]: MrRetex moved too quickly! 50.1305296422825,25.833890739061786,-68.03049181012634
+[18:55:48] [Server thread/INFO]: MrRetex issued server command: /god
+[18:56:17] [Server thread/INFO]: MrRetex issued server command: /god
+[18:56:39] [Server thread/INFO]: MrRetex issued server command: /enchant infinity 1
+[18:56:43] [Server thread/INFO]: MrRetex issued server command: /tpa BaFV
+[18:56:48] [Server thread/INFO]: BaFV issued server command: /tpaccept
+[18:56:48] [Server thread/WARN]: MrRetex moved too quickly! -13.003560382816172,-21.535840625044557,-82.67341565998773
+[18:57:49] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[18:58:09] [Server thread/INFO]: MrRetex issued server command: /gm 9
+[18:58:11] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[18:58:16] [Server thread/INFO]: MrRetex issued server command: /tpa BaFV
+[18:58:18] [Server thread/INFO]: BaFV issued server command: /tpaccept
+[18:58:18] [Server thread/WARN]: MrRetex moved too quickly! 36.971680845259975,2.0,-12.523470099058358
+[19:00:41] [Server thread/INFO]: MrRetex issued server command: /tpa BaFV
+[19:00:44] [Server thread/INFO]: BaFV issued server command: /tpaccept
+[19:00:44] [Server thread/WARN]: MrRetex moved too quickly! -10.982663132715686,3.0,-27.800000011920943
+[19:02:59] [Server thread/INFO]: MrRetex issued server command: /tpa BaFV
+[19:03:02] [Server thread/INFO]: BaFV issued server command: /tpaccept
+[19:03:02] [Server thread/WARN]: MrRetex moved too quickly! -10.749210643831674,14.0,-32.067764157343674
+[19:04:38] [Server thread/INFO]: MrRetex has made the advancement [Who is Cutting Onions?]
+[19:06:43] [Server thread/INFO]: MrRetex issued server command: /give MrRetex goldarmor 1
+[19:06:55] [Server thread/INFO]: MrRetex has made the advancement [Oh Shiny]
+[19:07:07] [Server thread/INFO]: MrRetex issued server command: /give MrRetex goldboots
+[19:08:23] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[19:09:38] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[19:10:12] [Server thread/INFO]: MrRetex issued server command: /fly
+[19:10:50] [Server thread/INFO]: MrRetex issued server command: /gm 1
+[19:11:01] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[19:11:31] [Server thread/INFO]: MrRetex issued server command: /ec
+[19:12:54] [Server thread/INFO]: MrRetex issued server command: /ec
+[19:13:41] [Server thread/INFO]: MrRetex issued server command: /ec
+[19:13:42] [Server thread/INFO]: BaFV was slain by Enderman
+[19:13:53] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[19:14:02] [Server thread/INFO]: MrRetex issued server command: /irp restore BaFV
+[19:14:49] [Server thread/INFO]: BaFV has made the advancement [Who is Cutting Onions?]
+[19:15:18] [Server thread/INFO]: MrRetex issued server command: /clearlag:lagg
+[19:15:27] [Server thread/INFO]: MrRetex issued server command: /lagg clear
+[19:16:22] [Server thread/INFO]: MrRetex issued server command: /ec
+[19:17:12] [Server thread/INFO]: MrRetex issued server command: /god
+[19:18:16] [Server thread/INFO]: MrRetex issued server command: /ec
+[19:18:37] [Server thread/INFO]: MrRetex issued server command: /ec
+[19:20:17] [Server thread/INFO]: MrRetex issued server command: /god
+[19:20:36] [Server thread/INFO]: MrRetex issued server command: /lagg clear
+[19:21:14] [Server thread/INFO]: MrRetex issued server command: /clan ff
+[19:28:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 3dc0ff36-d43f-3b8d-8a24-c193985c263d timed out
+[19:28:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player BaFV
+[19:28:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to BaFV
+[19:28:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player c47f7a7b-c793-385d-9878-28368251e21b timed out
+[19:28:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player MrRetex
+[19:28:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to MrRetex
+[19:28:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3dc0ff36-d43f-3b8d-8a24-c193985c263d
+[19:28:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3dc0ff36-d43f-3b8d-8a24-c193985c263d
+[19:28:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player BaFV (3dc0ff36-d43f-3b8d-8a24-c193985c263d) successfully connected to voice chat
+[19:28:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
+[19:28:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
+[19:28:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
+[19:28:17] [Server thread/INFO]: MrRetex lost connection: Disconnected
+[19:28:17] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
+[19:28:17] [Server thread/INFO]: MrRetex left the game
+[19:29:06] [User Authenticator #4/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
+[19:29:06] [Server thread/INFO]: MrRetex[/172.18.0.1:60498] logged in with entity id 4598 at ([world_nether]39.9100393974948, 72.0, -222.27046522489064)
+[19:29:07] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
+[19:29:07] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
+[19:29:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
+[19:29:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
+[19:29:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
+[19:29:14] [Craft Scheduler Thread - 17/INFO]: [AuthMe] The user MrRetex has 9 accounts:
+[19:29:14] [Craft Scheduler Thread - 17/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, §aBaFV§7.
+[19:29:14] [Craft Scheduler Thread - 17/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
+[19:30:20] [Server thread/INFO]: MrRetex lost connection: Disconnected
+[19:30:20] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
+[19:30:20] [Server thread/INFO]: MrRetex left the game
+[19:31:40] [User Authenticator #5/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
+[19:31:41] [Server thread/INFO]: MrRetex[/172.18.0.1:60696] logged in with entity id 4738 at ([world_nether]21.44566416783002, 70.0, -204.50683839108498)
+[19:31:42] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
+[19:31:42] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
+[19:31:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
+[19:31:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
+[19:31:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
+[19:31:56] [Craft Scheduler Thread - 24/INFO]: [AuthMe] The user MrRetex has 9 accounts:
+[19:31:56] [Craft Scheduler Thread - 24/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, §aBaFV§7.
+[19:31:56] [Craft Scheduler Thread - 24/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
+[19:32:20] [Server thread/INFO]: MrRetex issued server command: /heal
+[19:34:03] [Server thread/INFO]: MrRetex issued server command: /clan
+[19:34:17] [Server thread/INFO]: MrRetex issued server command: /clan
+[19:34:25] [Server thread/INFO]: [Clan Announce] [[OWNER] MrRetex] * Clan-wide friendly-fire is allowed
+[19:36:12] [Server thread/INFO]: MrRetex issued server command: /heal
+[19:36:32] [Server thread/INFO]: MrRetex issued server command: /heal BaFV
+[19:36:45] [Server thread/INFO]: MrRetex issued server command: /heal BaFV
+[19:37:21] [Server thread/INFO]: MrRetex issued server command: /heal BaFV
+[19:37:54] [Server thread/INFO]: MrRetex issued server command: /heal BaFV
+[19:38:06] [Server thread/INFO]: MrRetex issued server command: /clan
+[19:38:15] [Server thread/INFO]: BaFV lost connection: Disconnected
+[19:38:15] [Server thread/INFO]: [voicechat] Disconnecting client BaFV
+[19:38:15] [Server thread/INFO]: BaFV left the game
+[19:38:21] [Server thread/INFO]: [Clan Announce] [[OWNER] MrRetex] * Clan-wide friendly-fire blocked
+[19:38:30] [Server thread/INFO]: MrRetex issued server command: /save-all
+[19:38:30] [Server thread/INFO]: [MrRetex: Saved the game]
+[19:38:32] [Server thread/INFO]: MrRetex lost connection: Disconnected
+[19:38:32] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
+[19:38:32] [Server thread/INFO]: MrRetex left the game
+[19:38:51] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[19:38:51] [Server thread/INFO]: [Rcon: Stopping the server]
+[19:38:51] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[19:38:51] [Server thread/INFO]: Stopping server
+[19:38:51] [Server thread/INFO]: Disabling EssentialsDiscordLink v2.21.2
+[19:38:51] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v2.2.2
+[19:38:51] [Server thread/INFO]: [AuctionHouse] Saving auctions data
+[19:38:51] [Server thread/INFO]: [SimpleClans] Disabling SimpleClans v2.19.2-05e7abc
+[19:38:51] [Server thread/INFO]: [LWC] Disabling LWC v2.2.8-f367129
+[19:38:51] [Server thread/INFO]: [LWC] Flushing protection updates (0)
+[19:38:51] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v7.0.3
+[19:38:51] [Server thread/INFO]: Disabling EssentialsDiscord v2.21.2
+[19:38:51] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.30.5
+[19:38:51] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v23.1
+[19:38:51] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[19:38:52] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v23.1
+[19:38:52] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[19:38:52] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[19:38:52] [Server thread/INFO]: [TAB] Disabling TAB v6.0.1
+[19:38:52] [Server thread/INFO]: [TAB] Disabled in 1ms
+[19:38:52] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[19:38:52] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[19:38:52] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[19:38:52] [Server thread/INFO]: Disabling EssentialsChat v2.21.2
+[19:38:52] [Server thread/INFO]: Disabling Essentials v2.21.2
+[19:38:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[19:38:52] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[19:38:52] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:38:52] [Server thread/INFO]: [LPC] Disabling LPC v3.7.1
+[19:38:52] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[19:38:52] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.0
+[19:38:52] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.16
+[19:38:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.42
+[19:38:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:38:52] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:38:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:38:52] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.4
+[19:38:52] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.0.1
+[19:38:52] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[19:38:52] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[19:38:52] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[19:38:52] [Server thread/INFO]: [InventoryRollbackPlus] Disabling InventoryRollbackPlus v1.8.3
+[19:38:52] [Server thread/INFO]: [InventoryRollbackPlus] Setting shutdown state
+[19:38:52] [Server thread/INFO]: [InventoryRollbackPlus] Saving player inventories...
+[19:38:52] [Server thread/INFO]: [InventoryRollbackPlus] Done saving player inventories!
+[19:38:52] [Server thread/INFO]: [InventoryRollbackPlus] Plugin is disabled!
+[19:38:52] [Server thread/INFO]: Saving players
+[19:38:52] [Server thread/INFO]: Saving worlds
+[19:38:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:38:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:38:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:38:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:38:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:38:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:38:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:38:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:38:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:38:53] [Server thread/INFO]: Thread RCON Listener stopped
