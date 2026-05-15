@@ -41,7 +41,7 @@ config-version: 2.0.1.6
 #----------------------------------------------Language-------------------------------------------------
 
 # Here you can change the language of the plugin.
-language-file: lang-en.yml
+language-file: lang-ru.yml
 
 # See this link for all available language files: https://wiki.gpplugins.com/economyshopgui/file-configuration/languages#currently-supported-languages
 
@@ -52,7 +52,7 @@ language-file: lang-en.yml
 # Examples:
 # 'en-US' has a format of '#,##0.00'
 # 'nl-NL' has a format of '#.##0,00'
-locale: en-US
+locale: ru-RU
 # Note: This is not the locale at which messages will be translated, see the above option for that.
 # The locale is set in BCP 47 language tag.
 # See this website for some example BCP 47 language tag you can use: https://appmakers.dev/bcp-47-language-codes-list/
