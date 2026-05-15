@@ -1,6 +1,6 @@
 # 
 # AuctionHouse
-locale: ru_ru
+locale: ru_RU
 decimal_format: '#,##0.00'
 strict: false
 economy: vault
