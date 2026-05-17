@@ -1,0 +1,12 @@
+xp: 2859.0
+health: 0.0
+hunger: 20
+saturation: 1.4000001
+location:
+  world: world_the_end
+  x: -1247.0
+  y: 120.0
+  z: -599.0
+logType: DEATH
+version: v1_16_R3
+deathReason: PROJECTILE (Shulker Bullet, Shulker)

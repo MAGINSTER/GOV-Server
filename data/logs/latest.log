@@ -1,379 +1,377 @@
-[13:18:09] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:18:10] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[13:18:11] [Worker-Main-13/INFO]: Loaded 7 recipes
-[13:18:12] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[13:18:12] [Server thread/INFO]: Loading properties
-[13:18:12] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[13:18:13] [Server thread/INFO]: Debug logging is disabled
-[13:18:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:18:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:18:13] [Server thread/INFO]: Default game type: SURVIVAL
-[13:18:13] [Server thread/INFO]: Generating keypair
-[13:18:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:18:13] [Server thread/INFO]: Using epoll channel type
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loading 5 libraries... please wait
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
-[13:18:15] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-legacy/4.20.0/adventure-text-serializer-legacy-4.20.0.jar
-[13:18:16] [Server thread/INFO]: [InventoryRollbackPlus] Loading InventoryRollbackPlus v1.8.3
-[13:18:16] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.5
-[13:18:16] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[13:18:16] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
-[13:18:16] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
-[13:18:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[13:18:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[13:18:16] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[13:18:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[13:18:16] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[13:18:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[13:18:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[13:18:17] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[13:18:17] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
-[13:18:17] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.42
-[13:18:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:18:17] [Server thread/INFO]: [voicechat] Loading voicechat v2.6.16
-[13:18:17] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.12.0
-[13:18:17] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[13:18:17] [Server thread/INFO]: [LPC] Loading LPC v3.7.1
-[13:18:17] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
-[13:18:18] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@68106d4e]
-[13:18:18] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.2
-[13:18:18] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.2
-[13:18:18] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
-[13:18:18] [Server thread/INFO]: [TAB] Loading TAB v6.0.1
-[13:18:18] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
-[13:18:18] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v23.1
-[13:18:18] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.30.5
-[13:18:18] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.21.2
-[13:18:18] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v7.0.3
-[13:18:18] [Server thread/INFO]: [LWC] Loading LWC v2.2.8-f367129
-[13:18:18] [Server thread/INFO]: [SimpleClans] Loading SimpleClans v2.19.2-05e7abc
-[13:18:18] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.2.2
-[13:18:18] [Server thread/INFO]: Loading EssentialsDiscordLink v2.21.2
-[13:18:18] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.42
-[13:18:19] [Server thread/INFO]:         __    
-[13:18:19] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.42
-[13:18:19] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
-[13:18:19] [Server thread/INFO]: 
-[13:18:19] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:18:20] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:18:20] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:18:20] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2205ms)
-[13:18:20] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.0
-[13:18:21] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
-[13:18:22] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 16).[0;39m
-[13:18:22] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
-[13:18:22] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
-[13:18:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[13:18:22] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.2 which is not a depend, softdepend or loadbefore of this plugin.
-[13:18:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[13:18:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[13:18:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[13:18:22] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[13:18:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
-[13:18:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:18:22] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[13:18:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[13:18:24] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:18:24] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[13:18:24] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[13:18:24] [Server thread/INFO]: [WorldEdit]   
-[13:18:24] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[13:18:24] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[13:18:24] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[13:18:24] [Server thread/INFO]: [WorldEdit]   
-[13:18:24] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[13:18:24] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[13:18:24] [Server thread/INFO]: [WorldEdit]   
-[13:18:24] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[13:18:24] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[13:18:24] [Server thread/INFO]: [WorldEdit]   
-[13:18:24] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[13:18:24] [Server thread/INFO]: [WorldEdit] ====================================================
-[13:18:24] [Server thread/INFO]: [LWC] Enabling LWC v2.2.8-f367129
-[13:18:24] [Server thread/INFO]: [LWC] Connecting to SQLite
-[13:18:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:18:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:18:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:18:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:18:24] [Server thread/INFO]: Preparing level "world"
-[13:18:24] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:18:24] [Server thread/INFO]: Mob Spawn Range: 6
-[13:18:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:18:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:18:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[13:18:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:18:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:18:24] [Server thread/INFO]: Max TNT Explosions: 100
-[13:18:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:18:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:18:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:18:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:18:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:18:24] [Server thread/INFO]: View Distance: 10
-[13:18:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:18:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:18:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:18:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:18:25] [Server thread/INFO]: Mob Spawn Range: 6
-[13:18:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:18:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[13:18:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:18:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:18:25] [Server thread/INFO]: Max TNT Explosions: 100
-[13:18:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:18:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:18:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:18:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:18:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:18:25] [Server thread/INFO]: View Distance: 10
-[13:18:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:18:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:18:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:18:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:18:25] [Server thread/INFO]: Mob Spawn Range: 6
-[13:18:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:18:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:18:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[13:18:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:18:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:18:25] [Server thread/INFO]: Max TNT Explosions: 100
-[13:18:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:18:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:18:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:18:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:18:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:18:25] [Server thread/INFO]: View Distance: 10
-[13:18:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:18:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:18:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:18:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:18:27] [Server thread/INFO]: Preparing spawn area: 0%
-[13:18:27] [Server thread/INFO]: Preparing spawn area: 0%
-[13:18:27] [Server thread/INFO]: Preparing spawn area: 0%
-[13:18:27] [Server thread/INFO]: Preparing spawn area: 0%
-[13:18:27] [Server thread/INFO]: Preparing spawn area: 83%
-[13:18:27] [Server thread/INFO]: Time elapsed: 2204 ms
-[13:18:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:18:28] [Server thread/INFO]: Preparing spawn area: 0%
-[13:18:28] [Server thread/INFO]: Preparing spawn area: 0%
-[13:18:28] [Server thread/INFO]: Preparing spawn area: 0%
-[13:18:28] [Server thread/INFO]: Time elapsed: 1167 ms
-[13:18:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:18:29] [Server thread/INFO]: Preparing spawn area: 0%
-[13:18:29] [Worker-Main-14/INFO]: Preparing spawn area: 83%
-[13:18:29] [Server thread/INFO]: Time elapsed: 917 ms
-[13:18:29] [Server thread/INFO]: [InventoryRollbackPlus] Enabling InventoryRollbackPlus v1.8.3
-[13:18:29] [Server thread/INFO]: [InventoryRollbackPlus] Attempting support for version: 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5)
-[13:18:29] [Server thread/INFO]: [InventoryRollbackPlus] Using CraftBukkit version: v1_16_R3
-[13:18:29] [Server thread/INFO]: [InventoryRollbackPlus] Inventory backup data is set to save to: YAML
-[13:18:29] [Server thread/INFO]: [InventoryRollbackPlus] bStats are enabled
-[13:18:29] [Server thread/INFO]: [InventoryRollbackPlus] ----------------------------------------
-[13:18:29] [Server thread/INFO]: [InventoryRollbackPlus] We recommend updating your server to use Paper :)
-[13:18:29] [Server thread/INFO]: [InventoryRollbackPlus] Paper significantly reduces lag spikes among other benefits.
-[13:18:29] [Server thread/INFO]: [InventoryRollbackPlus] Learn more at: https://papermc.io/
-[13:18:29] [Server thread/INFO]: [InventoryRollbackPlus] ----------------------------------------
-[13:18:30] [Server thread/INFO]: [InventoryRollbackPlus] Tests completed: 5, Skipped: 0, Failed: 0
-[13:18:30] [Server thread/INFO]: [InventoryRollbackPlus] All tests passed successfully.
-[13:18:30] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.5
-[13:18:30] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[13:18:30] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[13:18:30] [Server thread/INFO]: [ClearLag] Loading modules...
-[13:18:30] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[13:18:30] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[13:18:30] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[13:18:30] [Thread-16/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[13:18:30] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
-[13:18:30] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
-[13:18:30] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.16
-[13:18:30] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.16.5-R0.1
-[13:18:30] [Server thread/WARN]: [voicechat] Vanish plugin integration is not supported
-[13:18:30] [Server thread/INFO]: [voicechat] Compatibility version 20
-[13:18:30] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[13:18:30] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[13:18:30] [Server thread/INFO]: [LPC] Enabling LPC v3.7.1
-[13:18:30] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[13:18:30] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:18:30] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:18:30] [Server thread/INFO]: No kits found to migrate.
-[13:18:30] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[13:18:30] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[13:18:30] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[13:18:30] [Server thread/INFO]: Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[13:18:30] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
-[13:18:30] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[13:18:30] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
-[13:18:30] [Server thread/INFO]: Selected Bukkit Material Tag Provider as the provider for MaterialTagProvider
-[13:18:30] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
-[13:18:30] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[13:18:30] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
-[13:18:30] [Server thread/INFO]: Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[13:18:30] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[13:18:30] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
-[13:18:30] [Server thread/INFO]: Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[13:18:30] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
-[13:18:30] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[13:18:30] [Server thread/INFO]: Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[13:18:30] [Server thread/INFO]: Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[13:18:30] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[13:18:30] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[13:18:30] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
-[13:18:30] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[13:18:30] [Server thread/INFO]: Loaded 43880 items from items.json.
-[13:18:30] [Server thread/INFO]: Using locale en_US
-[13:18:30] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:18:31] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:18:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[13:18:31] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[13:18:31] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
-[13:18:31] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:18:31] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[13:18:31] [Thread-16/INFO]: [ClearLag] No updates found!
-[13:18:31] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[13:18:31] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[13:18:31] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[13:18:31] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/data/plugins/Essentials/spawn.yml'
-[13:18:31] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[13:18:31] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[13:18:31] [Server thread/INFO]: [TAB] Enabling TAB v6.0.1
-[13:18:31] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.v1_16_R3.NMSImplementationProvider
-[13:18:31] [Server thread/INFO]: [TAB] Enabled in 135ms
-[13:18:31] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
-[13:18:31] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.MANGROVE
-[13:18:31] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.TALL_MANGROVE
-[13:18:31] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.CHERRY
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[13:18:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[13:18:31] [Server thread/INFO]: [WorldGuard] Loading region data...
-[13:18:31] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v23.1
-[13:18:31] [Server thread/WARN]: [CoreProtect] Loaded class com.sun.jna.Platform from AuthMe v5.6.0-bCUSTOM which is not a depend, softdepend or loadbefore of this plugin.
-[13:18:31] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
-[13:18:31] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[13:18:31] [Server thread/INFO]: --------------------
-[13:18:31] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[13:18:31] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[13:18:31] [Server thread/INFO]: --------------------
-[13:18:31] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.5
-[13:18:31] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.2
-[13:18:31] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:18:31] [Server thread/INFO]: Attempting to login to Discord...
-[13:18:31] [Server thread/ERROR]: An error occurred while logging into Discord, which has caused the plugin to disable itself: 
+[17:08:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:08:11] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[17:08:12] [Worker-Main-12/INFO]: Loaded 7 recipes
+[17:08:13] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[17:08:13] [Server thread/INFO]: Loading properties
+[17:08:14] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[17:08:14] [Server thread/INFO]: Debug logging is disabled
+[17:08:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:08:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:08:14] [Server thread/INFO]: Default game type: SURVIVAL
+[17:08:14] [Server thread/INFO]: Generating keypair
+[17:08:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:08:14] [Server thread/INFO]: Using epoll channel type
+[17:08:16] [Server thread/INFO]: [EconomyShopGUI] Loading 5 libraries... please wait
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
+[17:08:17] [Server thread/INFO]: [EconomyShopGUI] Loaded library /data/libraries/net/kyori/adventure-text-serializer-legacy/4.20.0/adventure-text-serializer-legacy-4.20.0.jar
+[17:08:17] [Server thread/INFO]: [InventoryRollbackPlus] Loading InventoryRollbackPlus v1.8.3
+[17:08:17] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.5
+[17:08:17] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[17:08:17] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
+[17:08:17] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
+[17:08:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[17:08:17] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[17:08:17] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[17:08:17] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[17:08:17] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[17:08:17] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[17:08:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:08:18] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[17:08:18] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[17:08:18] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.42
+[17:08:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:08:18] [Server thread/INFO]: [voicechat] Loading voicechat v2.6.16
+[17:08:18] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.12.0
+[17:08:18] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[17:08:18] [Server thread/INFO]: [LPC] Loading LPC v3.7.1
+[17:08:18] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[17:08:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7073d10d]
+[17:08:19] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.2
+[17:08:19] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.2
+[17:08:19] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[17:08:19] [Server thread/INFO]: [TAB] Loading TAB v6.0.1
+[17:08:19] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[17:08:19] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v23.1
+[17:08:19] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.30.5
+[17:08:19] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.21.2
+[17:08:19] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v7.0.3
+[17:08:19] [Server thread/INFO]: [LWC] Loading LWC v2.2.8-f367129
+[17:08:19] [Server thread/INFO]: [SimpleClans] Loading SimpleClans v2.19.2-05e7abc
+[17:08:19] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.2.2
+[17:08:19] [Server thread/INFO]: Loading EssentialsDiscordLink v2.21.2
+[17:08:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.42
+[17:08:20] [Server thread/INFO]:         __    
+[17:08:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.42
+[17:08:20] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[17:08:20] [Server thread/INFO]: 
+[17:08:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:08:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:08:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:08:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2119ms)
+[17:08:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.0
+[17:08:22] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
+[17:08:23] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 16).[0;39m
+[17:08:23] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
+[17:08:23] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
+[17:08:23] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:08:23] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.2 which is not a depend, softdepend or loadbefore of this plugin.
+[17:08:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:08:23] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:08:23] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:08:23] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:08:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[17:08:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:08:23] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:08:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[17:08:25] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:08:25] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[17:08:25] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[17:08:25] [Server thread/INFO]: [WorldEdit]   
+[17:08:25] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[17:08:25] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[17:08:25] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[17:08:25] [Server thread/INFO]: [WorldEdit]   
+[17:08:25] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[17:08:25] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[17:08:25] [Server thread/INFO]: [WorldEdit]   
+[17:08:25] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[17:08:25] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[17:08:25] [Server thread/INFO]: [WorldEdit]   
+[17:08:25] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[17:08:25] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:08:25] [Server thread/INFO]: [LWC] Enabling LWC v2.2.8-f367129
+[17:08:25] [Server thread/INFO]: [LWC] Connecting to SQLite
+[17:08:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:08:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:08:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:08:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:08:25] [Server thread/INFO]: Preparing level "world"
+[17:08:25] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:08:25] [Server thread/INFO]: Mob Spawn Range: 6
+[17:08:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:08:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:08:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:08:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:08:25] [Server thread/INFO]: Max TNT Explosions: 100
+[17:08:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:08:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:08:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:08:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:08:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:08:25] [Server thread/INFO]: View Distance: 10
+[17:08:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:08:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:08:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:08:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:08:25] [Server thread/INFO]: Mob Spawn Range: 6
+[17:08:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:08:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:08:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:08:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:08:25] [Server thread/INFO]: Max TNT Explosions: 100
+[17:08:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:08:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:08:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:08:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:08:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:08:25] [Server thread/INFO]: View Distance: 10
+[17:08:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:08:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:08:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:08:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:08:25] [Server thread/INFO]: Mob Spawn Range: 6
+[17:08:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:08:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:08:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:08:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:08:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:08:25] [Server thread/INFO]: Max TNT Explosions: 100
+[17:08:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:08:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:08:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:08:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:08:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:08:25] [Server thread/INFO]: View Distance: 10
+[17:08:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:08:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:08:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:08:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:08:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:08:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:08:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:08:27] [Server thread/INFO]: Preparing spawn area: 0%
+[17:08:27] [Server thread/INFO]: Time elapsed: 1825 ms
+[17:08:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:08:28] [Server thread/INFO]: Preparing spawn area: 0%
+[17:08:28] [Server thread/INFO]: Preparing spawn area: 0%
+[17:08:28] [Server thread/INFO]: Time elapsed: 1021 ms
+[17:08:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:08:29] [Server thread/INFO]: Preparing spawn area: 0%
+[17:08:29] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[17:08:29] [Server thread/INFO]: Time elapsed: 825 ms
+[17:08:29] [Server thread/INFO]: [InventoryRollbackPlus] Enabling InventoryRollbackPlus v1.8.3
+[17:08:29] [Server thread/INFO]: [InventoryRollbackPlus] Attempting support for version: 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5)
+[17:08:29] [Server thread/INFO]: [InventoryRollbackPlus] Using CraftBukkit version: v1_16_R3
+[17:08:29] [Server thread/INFO]: [InventoryRollbackPlus] Inventory backup data is set to save to: YAML
+[17:08:29] [Server thread/INFO]: [InventoryRollbackPlus] bStats are enabled
+[17:08:29] [Server thread/INFO]: [InventoryRollbackPlus] ----------------------------------------
+[17:08:29] [Server thread/INFO]: [InventoryRollbackPlus] We recommend updating your server to use Paper :)
+[17:08:29] [Server thread/INFO]: [InventoryRollbackPlus] Paper significantly reduces lag spikes among other benefits.
+[17:08:29] [Server thread/INFO]: [InventoryRollbackPlus] Learn more at: https://papermc.io/
+[17:08:29] [Server thread/INFO]: [InventoryRollbackPlus] ----------------------------------------
+[17:08:30] [Server thread/INFO]: [InventoryRollbackPlus] Tests completed: 5, Skipped: 0, Failed: 0
+[17:08:30] [Server thread/INFO]: [InventoryRollbackPlus] All tests passed successfully.
+[17:08:30] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.5
+[17:08:30] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[17:08:30] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[17:08:30] [Server thread/INFO]: [ClearLag] Loading modules...
+[17:08:30] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[17:08:30] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[17:08:30] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[17:08:30] [Thread-15/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[17:08:30] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
+[17:08:30] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[17:08:30] [Thread-15/INFO]: [ClearLag] No updates found!
+[17:08:30] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.16
+[17:08:30] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.16.5-R0.1
+[17:08:30] [Server thread/WARN]: [voicechat] Vanish plugin integration is not supported
+[17:08:30] [Server thread/INFO]: [voicechat] Compatibility version 20
+[17:08:30] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[17:08:30] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[17:08:30] [Server thread/INFO]: [LPC] Enabling LPC v3.7.1
+[17:08:30] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[17:08:31] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[17:08:31] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[17:08:31] [Server thread/INFO]: No kits found to migrate.
+[17:08:31] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
+[17:08:31] [Server thread/INFO]: Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[17:08:31] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[17:08:31] [Server thread/INFO]: Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[17:08:31] [Server thread/INFO]: Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[17:08:31] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[17:08:31] [Server thread/INFO]: Selected Bukkit Material Tag Provider as the provider for MaterialTagProvider
+[17:08:31] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
+[17:08:31] [Server thread/INFO]: Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[17:08:31] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[17:08:31] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[17:08:31] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[17:08:31] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[17:08:31] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
+[17:08:31] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[17:08:31] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[17:08:31] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[17:08:31] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
+[17:08:31] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[17:08:31] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[17:08:31] [Server thread/INFO]: Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[17:08:31] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
+[17:08:31] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[17:08:31] [Server thread/INFO]: Loaded 43880 items from items.json.
+[17:08:31] [Server thread/INFO]: Using locale en_US
+[17:08:31] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[17:08:31] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:08:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[17:08:31] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[17:08:31] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[17:08:31] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:08:31] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[17:08:32] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[17:08:32] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[17:08:32] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[17:08:32] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/data/plugins/Essentials/spawn.yml'
+[17:08:32] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[17:08:32] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[17:08:32] [Server thread/INFO]: [TAB] Enabling TAB v6.0.1
+[17:08:32] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.v1_16_R3.NMSImplementationProvider
+[17:08:33] [Server thread/INFO]: [TAB] Enabled in 274ms
+[17:08:33] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[17:08:33] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.MANGROVE
+[17:08:33] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.TALL_MANGROVE
+[17:08:33] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.CHERRY
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[17:08:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[17:08:33] [Server thread/INFO]: [WorldGuard] Loading region data...
+[17:08:33] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v23.1
+[17:08:33] [Server thread/WARN]: [CoreProtect] Loaded class com.sun.jna.Platform from AuthMe v5.6.0-bCUSTOM which is not a depend, softdepend or loadbefore of this plugin.
+[17:08:34] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
+[17:08:34] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[17:08:34] [Server thread/INFO]: --------------------
+[17:08:34] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[17:08:34] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[17:08:34] [Server thread/INFO]: --------------------
+[17:08:34] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.5
+[17:08:34] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.2
+[17:08:34] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:08:34] [Server thread/INFO]: Attempting to login to Discord...
+[17:08:34] [Server thread/ERROR]: An error occurred while logging into Discord, which has caused the plugin to disable itself: 
 No token provided! Please follow the tutorial in the config in order to setup the plugin.
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.0.3
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing bukkit meta...
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.16.5...
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[13:18:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 419ms to complete
-[13:18:32] [Server thread/INFO]: [SimpleClans] Enabling SimpleClans v2.19.2-05e7abc
-[13:18:32] [Server thread/INFO]: [SimpleClans] SQLite Connection successful
-[13:18:32] [Server thread/INFO]: [SimpleClans] Clans: 1
-[13:18:32] [Server thread/INFO]: [SimpleClans] Clan players: 4
-[13:18:32] [Server thread/INFO]: [SimpleClans] Registering 4 chat handlers...
-[13:18:32] [Server thread/INFO]: [SimpleClans] Registering 12 command contexts...
-[13:18:32] [Server thread/INFO]: [SimpleClans] Registering 15 base commands...
-[13:18:32] [Server thread/INFO]: [SimpleClans] Registering 32 command conditions...
-[13:18:32] [Server thread/INFO]: [SimpleClans] Registering 19 command completions...
-[13:18:32] [Server thread/INFO]: [SimpleClans] Multithreading: true
-[13:18:32] [Server thread/INFO]: [SimpleClans] BungeeCord: false
-[13:18:32] [Server thread/INFO]: [SimpleClans] HEX support: true
-[13:18:32] [Server thread/INFO]: [SimpleClans] Help us translate SimpleClans to your language! Access https://crowdin.com/project/simpleclans/
-[13:18:32] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.2.2
-[13:18:32] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
-[13:18:32] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
-[13:18:32] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_16_R3
-[13:18:32] [Server thread/INFO]: [AuctionHouse] Enabled DiscordSRV support
-[13:18:32] [Server thread/INFO]: [AuctionHouse] Using en_us locale
-[13:18:32] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
-[13:18:32] [Server thread/INFO]: Enabling EssentialsDiscordLink v2.21.2
-[13:18:32] [Server thread/ERROR]: Error occurred while enabling EssentialsDiscordLink v2.21.2 (Is it up to date?)
+[17:08:34] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.0.3
+[17:08:34] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing bukkit meta...
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.16.5...
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[17:08:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 622ms to complete
+[17:08:35] [Server thread/INFO]: [SimpleClans] Enabling SimpleClans v2.19.2-05e7abc
+[17:08:35] [Server thread/INFO]: [SimpleClans] SQLite Connection successful
+[17:08:35] [Server thread/INFO]: [SimpleClans] Clans: 1
+[17:08:35] [Server thread/INFO]: [SimpleClans] Clan players: 4
+[17:08:35] [Server thread/INFO]: [SimpleClans] Registering 4 chat handlers...
+[17:08:35] [Server thread/INFO]: [SimpleClans] Registering 12 command contexts...
+[17:08:36] [Server thread/INFO]: [SimpleClans] Registering 15 base commands...
+[17:08:36] [Server thread/INFO]: [SimpleClans] Registering 32 command conditions...
+[17:08:36] [Server thread/INFO]: [SimpleClans] Registering 19 command completions...
+[17:08:36] [Server thread/INFO]: [SimpleClans] Multithreading: true
+[17:08:36] [Server thread/INFO]: [SimpleClans] BungeeCord: false
+[17:08:36] [Server thread/INFO]: [SimpleClans] HEX support: true
+[17:08:36] [Server thread/INFO]: [SimpleClans] Help us translate SimpleClans to your language! Access https://crowdin.com/project/simpleclans/
+[17:08:36] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.2.2
+[17:08:36] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[17:08:36] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[17:08:36] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_16_R3
+[17:08:36] [Server thread/INFO]: [AuctionHouse] Enabled DiscordSRV support
+[17:08:36] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[17:08:36] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
+[17:08:36] [Server thread/INFO]: Enabling EssentialsDiscordLink v2.21.2
+[17:08:36] [Server thread/ERROR]: Error occurred while enabling EssentialsDiscordLink v2.21.2 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "net.essentialsx.api.v2.services.discord.DiscordService.getInteractionController()" because "this.api" is null
 	at net.essentialsx.discordlink.EssentialsDiscordLink.onEnable(EssentialsDiscordLink.java:69) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
@@ -386,268 +384,797 @@ java.lang.NullPointerException: Cannot invoke "net.essentialsx.api.v2.services.d
 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:928) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
 	at java.lang.Thread.run(Unknown Source) [?:?]
-[13:18:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:18:33] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[13:18:33] [Server thread/INFO]: Done (8.612s)! For help, type "help"
-[13:18:33] [Server thread/INFO]: Starting remote control listener
-[13:18:33] [Server thread/INFO]: Thread RCON Listener started
-[13:18:33] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[13:18:33] [Craft Scheduler Thread - 3/INFO]: [InventoryRollbackPlus] Checking for updates...
-[13:18:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
-[13:18:33] [Server thread/INFO]: [voicechat] Loading plugins
-[13:18:33] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[13:18:33] [Server thread/INFO]: [voicechat] Initializing plugins
-[13:18:33] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[13:18:33] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[13:18:33] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'again-incident.gl.at.ply.gg:3673'
-[13:18:33] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[13:18:33] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:24454
-[13:18:33] [Craft Scheduler Thread - 7/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[13:18:33] [Craft Scheduler Thread - 7/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[13:18:33] [Craft Scheduler Thread - 5/INFO]: §6Fetching version information...
-[13:18:33] [Craft Scheduler Thread - 7/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[13:18:33] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
-[13:18:33] [Craft Scheduler Thread - 7/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[13:18:33] [Server thread/INFO]: [SimpleClans] Registered WorldGuardProvider successfully
-[13:18:33] [Server thread/WARN]: [SimpleClans] Error registering provider WorldGuard6Provider
-[13:18:33] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
-[13:18:33] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
-[13:18:33] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[13:18:33] [Craft Scheduler Thread - 9/INFO]: [Vault] Checking for Updates ... 
-[13:18:33] [User Authenticator #1/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[13:18:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@6a056955[id=c47f7a7b-c793-385d-9878-28368251e21b,name=MrRetex,properties={},legacy=false] (/172.18.0.1:50676) lost connection: Disconnected
-[13:18:33] [Craft Scheduler Thread - 9/INFO]: [Vault] No new version available
-[13:18:35] [Thread-29/INFO]: --------------------
-[13:18:35] [Thread-29/INFO]: [CoreProtect] Version 23.2 is now available.
-[13:18:35] [Thread-29/INFO]: [CoreProtect] Download: www.coreprotect.net/download/
-[13:18:35] [Thread-29/INFO]: --------------------
-[13:18:39] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.9.1, you're on: 4.0.1
-[13:18:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[13:18:41] [Craft Scheduler Thread - 3/INFO]: [InventoryRollbackPlus] Warning: You are running an experimental/development build! Proceed with caution.
-[13:18:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[13:18:41] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Вывод консоли успешно перенаправлен в канал TC:консоль(1498984457716371546)
-[13:18:41] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Привязанные аккаунты успешно сохранены за 2мс
-[13:18:41] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Активация Essentials подключения
-[13:18:41] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Активация LuckPerms подключения
-[13:18:42] [DiscordSRV - JDA Callback 9/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[13:18:53] [User Authenticator #2/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[13:18:53] [Server thread/INFO]: MrRetex[/172.18.0.1:41374] logged in with entity id 152 at ([world]615.3000000119209, 62.9375, -146.07618490692013)
-[13:18:53] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[13:18:53] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[13:18:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1955)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1955)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[13:18:54] [Craft Scheduler Thread - 4/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[13:18:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[13:18:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[13:19:01] [Craft Scheduler Thread - 0/INFO]: [AuthMe] The user MrRetex has 9 accounts:
-[13:19:01] [Craft Scheduler Thread - 0/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
-[13:19:01] [Craft Scheduler Thread - 0/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
-[13:19:03] [pool-51-thread-1/ERROR]: [DiscordSRV] Ошибка получения URL https://api.github.com/repos/DiscordSRV/DiscordSRV/compare/1b6e3bf8ee2f7ddaf3ac71e550a1cac17d238668...da9e027f7acd76e0f91d53a11e5b53832ac36e92?per_page=1: java.net.SocketTimeoutException: Read timed out
-[13:19:03] [pool-51-thread-1/WARN]: [DiscordSRV] Update check failed: Cannot invoke "github.scarsz.discordsrv.dependencies.google.gson.JsonObject.get(String)" because "minimumComparisonResult" is null
-[13:19:29] [Server thread/INFO]: MrRetex issued server command: /openinv BaFV
-[13:19:30] [Server thread/INFO]: [OpenInv] [LanguageManager] Missing translations from ru_ru.yml: messages.error.consoleUnsupported, messages.error.lootNotGenerated, messages.error.invalidMaterial, messages.error.invalidNumber, messages.error.invalidPlayer, messages.error.permissionOpenSelf, messages.error.permissionEnderAll, messages.error.permissionExempt, messages.error.permissionCrossWorld, messages.error.permissionPlayerOnline, messages.error.permissionPlayerOffline, messages.error.commandException, messages.info.containerBlocked, messages.info.containerBlockedSilent, messages.info.containerSilent, messages.info.settingState, messages.info.player.noMatches, messages.info.player.matches, messages.info.container.noMatches, messages.info.container.matches, messages.info.true, messages.info.false, container.player, container.enderchest
-[13:20:03] [Craft Scheduler Thread - 1/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mFailed to get release info from api.github.com. 
+[17:08:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:08:37] [Server thread/INFO]: Done (11.595s)! For help, type "help"
+[17:08:37] [Server thread/INFO]: Starting remote control listener
+[17:08:37] [Server thread/INFO]: Thread RCON Listener started
+[17:08:37] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[17:08:37] [Craft Scheduler Thread - 4/INFO]: [InventoryRollbackPlus] Checking for updates...
+[17:08:37] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+[17:08:37] [Craft Scheduler Thread - 4/INFO]: [InventoryRollbackPlus] Warning: You are running an experimental/development build! Proceed with caution.
+[17:08:37] [Server thread/INFO]: [voicechat] Loading plugins
+[17:08:37] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[17:08:37] [Server thread/INFO]: [voicechat] Initializing plugins
+[17:08:37] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[17:08:37] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[17:08:37] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'again-incident.gl.at.ply.gg:3673'
+[17:08:37] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[17:08:37] [Craft Scheduler Thread - 6/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[17:08:37] [Craft Scheduler Thread - 6/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[17:08:37] [Craft Scheduler Thread - 3/INFO]: §6Fetching version information...
+[17:08:37] [Craft Scheduler Thread - 6/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[17:08:37] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[17:08:37] [Craft Scheduler Thread - 6/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[17:08:37] [Server thread/INFO]: [SimpleClans] Registered WorldGuardProvider successfully
+[17:08:37] [Server thread/WARN]: [SimpleClans] Error registering provider WorldGuard6Provider
+[17:08:37] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
+[17:08:37] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
+[17:08:37] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[17:08:37] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
+[17:08:37] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:24454
+[17:08:37] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
+[17:08:37] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.9.1, you're on: 4.0.1
+[17:08:38] [Thread-22/INFO]: --------------------
+[17:08:38] [Thread-22/INFO]: [CoreProtect] Version 23.2 is now available.
+[17:08:38] [Thread-22/INFO]: [CoreProtect] Download: www.coreprotect.net/download/
+[17:08:38] [Thread-22/INFO]: --------------------
+[17:09:04] [pool-51-thread-1/ERROR]: [DiscordSRV] Ошибка получения URL https://api.github.com/repos/DiscordSRV/DiscordSRV/compare/1b6e3bf8ee2f7ddaf3ac71e550a1cac17d238668...da9e027f7acd76e0f91d53a11e5b53832ac36e92?per_page=1: java.net.SocketTimeoutException: Read timed out
+[17:09:04] [pool-51-thread-1/WARN]: [DiscordSRV] Update check failed: Cannot invoke "github.scarsz.discordsrv.dependencies.google.gson.JsonObject.get(String)" because "minimumComparisonResult" is null
+[17:10:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[17:10:07] [Craft Scheduler Thread - 1/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mFailed to get release info from api.github.com. 
  If this message is repeated a lot, please see https://skinsrestorer.net/firewall[0;39m
-[13:21:08] [Server thread/INFO]: MrRetex issued server command: /clear MrRetex emerald
-[13:24:33] [Async Chat Thread - #0/INFO]: [OWNER] MrRetex: @bafv Изъял 92 изумруда которые были выданы в качестве теста.
-[13:26:30] [Async Chat Thread - #1/INFO]: [OWNER] MrRetex: @montanayuto Если ты не зайдёшь в ближайшее время, аккаунт будет деактивирован.
-[13:31:40] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:hunger
-[13:31:40] [Server thread/INFO]: [MrRetex: Applied effect Hunger to MrRetex]
-[13:31:49] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] System DNS FAILED to resolve hostname discord.com, switching to fallback DNS servers!
-[13:32:38] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:hunger 99
-[13:32:38] [Server thread/INFO]: [MrRetex: Applied effect Hunger to MrRetex]
-[13:32:51] [Server thread/INFO]: MrRetex issued server command: /difficulty normal
-[13:32:51] [Server thread/INFO]: [MrRetex: The difficulty has been set to Normal]
-[13:34:24] [Server thread/INFO]: MrRetex issued server command: /day
-[13:35:22] [Craft Scheduler Thread - 5/WARN]: §6Unable to check your version! Self-built? Build information: §cid:'2.21.2' branch:'2.x' isDev:false§6.
-[13:38:53] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] System DNS FAILED to resolve hostname discord.com, switching to fallback DNS servers!
-[13:38:53] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] System DNS FAILED to resolve hostname discord.com, switching to fallback DNS servers!
-[13:40:24] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[13:40:24] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[13:40:24] [Server thread/INFO]: MrRetex left the game
-[13:40:24] [Craft Scheduler Thread - 12/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
-[13:40:24] [Craft Scheduler Thread - 12/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
-[13:40:24] [Craft Scheduler Thread - 12/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
-[13:40:24] [Craft Scheduler Thread - 12/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendLeaveMessage(DiscordSRV.java:2016)
-[13:40:24] [Craft Scheduler Thread - 12/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$PlayerQuitEvent$0(PlayerJoinLeaveListener.java:131)
-[13:40:24] [Craft Scheduler Thread - 12/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
-[13:40:24] [Craft Scheduler Thread - 12/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
-[13:40:24] [Craft Scheduler Thread - 12/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[13:40:24] [Craft Scheduler Thread - 12/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[13:40:24] [Craft Scheduler Thread - 12/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[13:41:26] [User Authenticator #3/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[13:41:26] [Server thread/INFO]: MrRetex[/172.18.0.1:46284] logged in with entity id 2435 at ([world]606.1602491930425, 62.9375, -149.3788526968448)
-[13:41:27] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[13:41:27] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1955)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1955)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[13:41:27] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[13:41:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[13:41:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[13:41:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[13:41:35] [Craft Scheduler Thread - 17/INFO]: [AuthMe] The user MrRetex has 9 accounts:
-[13:41:35] [Craft Scheduler Thread - 17/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
-[13:41:35] [Craft Scheduler Thread - 17/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
-[13:42:38] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[13:42:38] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[13:42:38] [Server thread/INFO]: MrRetex left the game
-[13:42:38] [Craft Scheduler Thread - 17/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
-[13:42:38] [Craft Scheduler Thread - 17/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
-[13:42:38] [Craft Scheduler Thread - 17/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
-[13:42:38] [Craft Scheduler Thread - 17/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendLeaveMessage(DiscordSRV.java:2016)
-[13:42:38] [Craft Scheduler Thread - 17/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$PlayerQuitEvent$0(PlayerJoinLeaveListener.java:131)
-[13:42:38] [Craft Scheduler Thread - 17/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
-[13:42:38] [Craft Scheduler Thread - 17/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
-[13:42:38] [Craft Scheduler Thread - 17/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[13:42:38] [Craft Scheduler Thread - 17/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[13:42:38] [Craft Scheduler Thread - 17/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[13:44:37] [User Authenticator #4/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
-[13:44:37] [Server thread/INFO]: MrRetex[/172.18.0.1:44422] logged in with entity id 2591 at ([world]606.5413937095917, 62.9375, -148.8646249074113)
-[13:44:38] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
-[13:44:38] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1955)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1955)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[13:44:38] [Craft Scheduler Thread - 26/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[13:44:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
-[13:44:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
-[13:44:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
-[13:44:52] [Craft Scheduler Thread - 25/INFO]: [AuthMe] The user MrRetex has 9 accounts:
-[13:44:52] [Craft Scheduler Thread - 25/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, bafv.
-[13:44:52] [Craft Scheduler Thread - 25/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
-[13:49:33] [Server thread/INFO]: MrRetex issued server command: /gm 1
-[13:52:00] [Server thread/INFO]: MrRetex issued server command: /gm 0
-[13:52:10] [Server thread/INFO]: MrRetex issued server command: /openinv BaFV
-[13:52:14] [Server thread/INFO]: MrRetex issued server command: /openinv BaFV
-[13:52:43] [Server thread/INFO]: MrRetex issued server command: /lagg clear
-[14:00:42] [Server thread/INFO]: MrRetex issued server command: /save-all
-[14:00:42] [Server thread/INFO]: [MrRetex: Saved the game]
-[14:00:43] [Server thread/INFO]: MrRetex lost connection: Disconnected
-[14:00:43] [Server thread/INFO]: [voicechat] Disconnecting client MrRetex
-[14:00:43] [Server thread/INFO]: MrRetex left the game
-[14:00:43] [Craft Scheduler Thread - 31/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
-[14:00:43] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
-[14:00:43] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
-[14:00:43] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendLeaveMessage(DiscordSRV.java:2016)
-[14:00:43] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$PlayerQuitEvent$0(PlayerJoinLeaveListener.java:131)
-[14:00:43] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
-[14:00:43] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
-[14:00:43] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[14:00:43] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[14:00:43] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[14:01:02] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[14:01:02] [Server thread/INFO]: [Rcon: Stopping the server]
-[14:01:02] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[14:01:02] [Server thread/INFO]: Stopping server
-[14:01:02] [Server thread/INFO]: Disabling EssentialsDiscordLink v2.21.2
-[14:01:02] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v2.2.2
-[14:01:02] [Server thread/INFO]: [AuctionHouse] Saving auctions data
-[14:01:02] [Server thread/INFO]: [SimpleClans] Disabling SimpleClans v2.19.2-05e7abc
-[14:01:03] [Server thread/INFO]: [LWC] Disabling LWC v2.2.8-f367129
-[14:01:03] [Server thread/INFO]: [LWC] Flushing protection updates (0)
-[14:01:03] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v7.0.3
-[14:01:03] [Server thread/INFO]: Disabling EssentialsDiscord v2.21.2
-[14:01:03] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.30.5
-[14:01:08] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Отключение завершено за 5976мс
-[14:01:08] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v23.1
-[14:01:08] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[14:01:09] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: interrupted
-[14:01:09] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: interrupted
-[14:01:09] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v23.1
-[14:01:09] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
-[14:01:09] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[14:01:09] [Server thread/INFO]: [TAB] Disabling TAB v6.0.1
-[14:01:09] [Server thread/INFO]: [TAB] Disabled in 1ms
-[14:01:09] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[14:01:09] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[14:01:09] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[14:01:09] [Server thread/INFO]: Disabling EssentialsChat v2.21.2
-[14:01:09] [Server thread/INFO]: Disabling Essentials v2.21.2
-[14:01:09] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[14:01:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
-[14:01:09] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[14:01:09] [Server thread/INFO]: [LPC] Disabling LPC v3.7.1
-[14:01:09] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[14:01:09] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.0
-[14:01:09] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.16
-[14:01:09] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.42
-[14:01:09] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[14:01:09] [Server thread/INFO]: [LuckPerms] Closing storage...
-[14:01:09] [Server thread/INFO]: [LuckPerms] Goodbye!
-[14:01:09] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.4
-[14:01:09] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.0.1
-[14:01:09] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[14:01:09] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[14:01:09] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[14:01:09] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.5
-[14:01:09] [Server thread/INFO]: [InventoryRollbackPlus] Disabling InventoryRollbackPlus v1.8.3
-[14:01:09] [Server thread/INFO]: [InventoryRollbackPlus] Setting shutdown state
-[14:01:09] [Server thread/INFO]: [InventoryRollbackPlus] Saving player inventories...
-[14:01:09] [Server thread/INFO]: [InventoryRollbackPlus] Done saving player inventories!
-[14:01:09] [Server thread/INFO]: [InventoryRollbackPlus] Plugin is disabled!
-[14:01:09] [Server thread/INFO]: Saving players
-[14:01:09] [Server thread/INFO]: Saving worlds
-[14:01:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:01:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:01:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:01:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:01:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:01:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:01:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:01:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:01:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:01:10] [Server thread/INFO]: Thread RCON Listener stopped
+[17:10:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[17:10:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[17:10:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Вывод консоли успешно перенаправлен в канал TC:консоль(1498984457716371546)
+[17:10:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Привязанные аккаунты успешно сохранены за 2мс
+[17:10:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Активация Essentials подключения
+[17:10:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Активация LuckPerms подключения
+[17:10:15] [DiscordSRV - JDA Callback 9/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[17:10:32] [User Authenticator #1/INFO]: UUID of player BaFV is 3dc0ff36-d43f-3b8d-8a24-c193985c263d
+[17:10:32] [Server thread/INFO]: BaFV[/172.18.0.1:55578] logged in with entity id 156 at ([world]592.9528869714716, 62.5, -145.17376051958843)
+[17:10:32] [Server thread/INFO]: [voicechat] Received secret request of BaFV (20)
+[17:10:32] [Server thread/INFO]: [voicechat] Sent secret to BaFV
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1955)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1955)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:10:33] [Craft Scheduler Thread - 11/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:10:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3dc0ff36-d43f-3b8d-8a24-c193985c263d
+[17:10:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3dc0ff36-d43f-3b8d-8a24-c193985c263d
+[17:10:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player BaFV (3dc0ff36-d43f-3b8d-8a24-c193985c263d) successfully connected to voice chat
+[17:10:43] [Craft Scheduler Thread - 1/INFO]: [AuthMe] The user BaFV has 9 accounts:
+[17:10:43] [Craft Scheduler Thread - 1/INFO]: [AuthMe] §7mrretex, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, §aBaFV§7.
+[17:10:43] [Craft Scheduler Thread - 1/INFO]: [AuthMe] BaFV logged in 172.18.0.1
+[17:11:46] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 2s
+[17:12:25] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 4s
+[17:12:42] [DiscordSRV - JDA Gateway/WARN]: [DiscordSRV] [JDA] Missed 2 heartbeats! Trying to reconnect...
+[17:12:43] [JDA MainWS-ReconnectThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 4900). Appending to reconnect queue
+[17:12:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[17:13:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished (Re)Loading!
+[17:14:29] [User Authenticator #2/INFO]: UUID of player MrRetex is c47f7a7b-c793-385d-9878-28368251e21b
+[17:14:29] [Server thread/INFO]: MrRetex[/172.18.0.1:57296] logged in with entity id 717 at ([world]604.3473156720335, 62.9375, -151.94412389911156)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1955)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1955)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:14:30] [Craft Scheduler Thread - 16/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:14:30] [Server thread/INFO]: [voicechat] Received secret request of MrRetex (20)
+[17:14:30] [Server thread/INFO]: [voicechat] Sent secret to MrRetex
+[17:14:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c47f7a7b-c793-385d-9878-28368251e21b
+[17:14:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c47f7a7b-c793-385d-9878-28368251e21b
+[17:14:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MrRetex (c47f7a7b-c793-385d-9878-28368251e21b) successfully connected to voice chat
+[17:14:53] [Craft Scheduler Thread - 15/INFO]: [AuthMe] The user MrRetex has 9 accounts:
+[17:14:53] [Craft Scheduler Thread - 15/INFO]: [AuthMe] §7§aMrRetex§7, twixlyy, uripi5, kteam, _surapts_, hilovkotoriy, mahiro_oyama1, tony, §aBaFV§7.
+[17:14:53] [Craft Scheduler Thread - 15/INFO]: [AuthMe] MrRetex logged in 172.18.0.1
+[17:16:14] [Server thread/INFO]: MrRetex issued server command: /stopsound @a
+[17:16:14] [Server thread/INFO]: [MrRetex: Stopped all sounds]
+[17:17:41] [Server thread/INFO]: MrRetex issued server command: /enchant infinity 1
+[17:19:36] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:19:36] [Server thread/WARN]: MrRetex moved too quickly! 17.987985539212445,5.0,-8.800000011920929
+[17:22:55] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 255 true
+[17:22:55] [Server thread/INFO]: [MrRetex: Applied effect Jump Boost to MrRetex]
+[17:23:11] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 2 true
+[17:23:17] [Server thread/INFO]: MrRetex issued server command: /effect clear MrRetex minecraft:jump_boost
+[17:23:17] [Server thread/INFO]: [MrRetex: Removed effect Jump Boost from MrRetex]
+[17:23:18] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 2 true
+[17:23:18] [Server thread/INFO]: [MrRetex: Applied effect Jump Boost to MrRetex]
+[17:23:22] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 3 true
+[17:23:22] [Server thread/INFO]: [MrRetex: Applied effect Jump Boost to MrRetex]
+[17:23:29] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 5 true
+[17:23:29] [Server thread/INFO]: [MrRetex: Applied effect Jump Boost to MrRetex]
+[17:23:33] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 10 true
+[17:23:33] [Server thread/INFO]: [MrRetex: Applied effect Jump Boost to MrRetex]
+[17:23:38] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 50 true
+[17:23:38] [Server thread/INFO]: [MrRetex: Applied effect Jump Boost to MrRetex]
+[17:23:44] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 100 true
+[17:23:44] [Server thread/INFO]: [MrRetex: Applied effect Jump Boost to MrRetex]
+[17:23:45] [Server thread/WARN]: MrRetex moved too quickly! 0.0,10.520000457763672,0.0
+[17:23:45] [Server thread/WARN]: MrRetex moved too quickly! 0.0,10.520000457763672,0.0
+[17:23:46] [Server thread/WARN]: MrRetex moved too quickly! 0.0,10.520000457763672,0.0
+[17:23:46] [Server thread/WARN]: MrRetex moved too quickly! 0.0,10.520000457763672,0.0
+[17:23:47] [Server thread/WARN]: MrRetex moved too quickly! -0.017276615869036505,10.520000457763672,-0.02357616065523871
+[17:23:48] [Server thread/WARN]: MrRetex moved too quickly! 0.027842507305535946,10.520000457763672,-0.01578508381442134
+[17:23:48] [Server thread/WARN]: MrRetex moved too quickly! 0.0,10.520000457763672,0.0
+[17:23:53] [Server thread/INFO]: MrRetex issued server command: /effect clear MrRetex minecraft:jump_boost
+[17:23:53] [Server thread/INFO]: [MrRetex: Removed effect Jump Boost from MrRetex]
+[17:23:57] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 60 true
+[17:23:57] [Server thread/INFO]: [MrRetex: Applied effect Jump Boost to MrRetex]
+[17:23:59] [Server thread/INFO]: MrRetex issued server command: /god
+[17:24:09] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 99 true
+[17:24:09] [Server thread/INFO]: [MrRetex: Applied effect Jump Boost to MrRetex]
+[17:24:09] [Server thread/WARN]: MrRetex moved too quickly! 0.0,10.420000076293945,0.0
+[17:24:10] [Server thread/WARN]: MrRetex moved too quickly! 0.0,10.420000076293945,0.0
+[17:24:10] [Server thread/WARN]: MrRetex moved too quickly! 0.0,10.420000076293945,0.0
+[17:24:12] [Server thread/INFO]: MrRetex issued server command: /effect clear MrRetex minecraft:jump_boost
+[17:24:12] [Server thread/INFO]: [MrRetex: Removed effect Jump Boost from MrRetex]
+[17:24:17] [Server thread/INFO]: MrRetex issued server command: /effect give MrRetex minecraft:jump_boost 999999 90 true
+[17:24:17] [Server thread/INFO]: [MrRetex: Applied effect Jump Boost to MrRetex]
+[17:24:20] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:24:20] [Server thread/WARN]: MrRetex moved too quickly! 167.6738260722169,-245.6949876432849,-82.46346132953636
+[17:24:49] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:25:08] [Server thread/INFO]: MrRetex issued server command: /effect clear MrRetex minecraft:jump_boost
+[17:25:08] [Server thread/INFO]: [MrRetex: Removed effect Jump Boost from MrRetex]
+[17:25:11] [Server thread/INFO]: MrRetex issued server command: /god
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: java.net.UnknownHostException: webapi.essentialsx.net
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/java.net.Socket.connect(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at com.earth2me.essentials.updatecheck.UpdateChecker.tryRequestWithFallback(UpdateChecker.java:159)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at com.earth2me.essentials.updatecheck.UpdateChecker.lambda$fetchLatestRelease$1(UpdateChecker.java:98)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 5/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:25:12] [Craft Scheduler Thread - 3/WARN]: §4Error while fetching EssentialsX version information! Build information: §cid:'2.21.2' branch:'2.x' isDev:false§6.
+[17:25:51] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[17:26:10] [Server thread/INFO]: MrRetex issued server command: /speed 2
+[17:26:27] [Server thread/INFO]: MrRetex issued server command: /speed 10
+[17:26:32] [Server thread/INFO]: MrRetex issued server command: /speed 50
+[17:26:38] [Server thread/INFO]: MrRetex issued server command: /speed 100
+[17:26:43] [Server thread/INFO]: MrRetex issued server command: /speed 500
+[17:26:50] [Server thread/INFO]: MrRetex issued server command: /speed 1000
+[17:26:55] [Server thread/INFO]: MrRetex issued server command: /speed 10
+[17:27:10] [Server thread/INFO]: MrRetex issued server command: /speed 10 BaFV
+[17:27:21] [Server thread/INFO]: MrRetex issued server command: /speed walk 10 BaFV
+[17:28:23] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:28:53] [Server thread/WARN]: BaFV moved wrongly!
+[17:30:38] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:30:38] [Server thread/WARN]: MrRetex moved too quickly! 58.14837734761545,-3.0,-132.80740733965672
+[17:32:33] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:32:33] [Server thread/WARN]: MrRetex moved too quickly! 133.19999998807907,9.0,-2.5170522623657234
+[17:33:07] [Server thread/INFO]: MrRetex issued server command: /locate monument
+[17:33:12] [Server thread/INFO]: MrRetex issued server command: /tp @s 2208 ~ -912
+[17:33:17] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex 2208 ~ -912
+[17:33:25] [Server thread/INFO]: MrRetex issued server command: /back
+[17:33:25] [Server thread/WARN]: MrRetex moved too quickly! -415.0,14.0,-530.0
+[17:33:33] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:33:33] [Server thread/WARN]: MrRetex moved too quickly! -60.80000001192093,-18.0,-37.40094424009021
+[17:33:36] [Server thread/INFO]: MrRetex issued server command: /gm 3
+[17:33:41] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[17:33:48] [Server thread/INFO]: BaFV has made the advancement [Eye Spy]
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:33:48] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:33:53] [Server thread/INFO]: MrRetex issued server command: /speed walk 1
+[17:33:58] [Server thread/INFO]: MrRetex issued server command: /speed walk 1 BaFV
+[17:34:05] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:34:05] [Server thread/INFO]: MrRetex has made the advancement [Eye Spy]
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:34:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:34:26] [Server thread/INFO]: MrRetex issued server command: /effect clear @a
+[17:34:26] [Server thread/INFO]: [MrRetex: Removed every effect from 2 targets]
+[17:34:47] [Server thread/INFO]: MrRetex issued server command: /gm 3
+[17:37:31] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:37:33] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[17:37:58] [Server thread/INFO]: BaFV has made the advancement [The End?]
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:37:58] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:37:58] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[17:37:58] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[17:38:03] [Server thread/INFO]: MrRetex has made the advancement [The End?]
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:38:03] [Craft Scheduler Thread - 24/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:38:34] [Server thread/INFO]: MrRetex issued server command: /fly
+[17:38:37] [Server thread/INFO]: MrRetex issued server command: /fly
+[17:39:50] [Server thread/INFO]: MrRetex issued server command: /fly
+[17:39:58] [Server thread/INFO]: MrRetex issued server command: /fly
+[17:40:28] [Server thread/INFO]: MrRetex issued server command: /god
+[17:40:31] [Server thread/INFO]: MrRetex issued server command: /god
+[17:42:41] [Server thread/INFO]: MrRetex issued server command: /god
+[17:42:49] [Server thread/INFO]: MrRetex has made the advancement [Free the End]
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:42:49] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:42:51] [Server thread/INFO]: MrRetex issued server command: /god
+[17:43:19] [Server thread/INFO]: BaFV has reached the goal [The Next Generation]
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:43:19] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:43:29] [Server thread/INFO]: MrRetex issued server command: /invsee
+[17:43:31] [Server thread/INFO]: MrRetex issued server command: /invsee BaFV
+[17:43:36] [Server thread/INFO]: MrRetex has reached the goal [The Next Generation]
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:43:36] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:44:04] [Server thread/INFO]: MrRetex issued server command: /locate endcity
+[17:45:07] [Server thread/INFO]: BaFV has made the advancement [Remote Getaway]
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:45:07] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:45:45] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:45:45] [Server thread/WARN]: MrRetex moved too quickly! -807.6799481717829,6.0,664.3527106823309
+[17:46:03] [Server thread/INFO]: MrRetex issued server command: /fly
+[17:46:40] [Server thread/INFO]: MrRetex issued server command: /fly
+[17:46:41] [Server thread/INFO]: MrRetex issued server command: /tp BaFV
+[17:46:41] [Server thread/WARN]: MrRetex moved too quickly! -29.705864226438962,-5.0,62.80591332218114
+[17:48:33] [Server thread/WARN]: BaFV moved too quickly! -7.459226823774657,-1.0,-7.560789580157461
+[17:49:17] [Server thread/WARN]: MrRetex moved too quickly! -7.92934030367951,1.0,6.562105334648436
+[17:49:42] [Server thread/INFO]: MrRetex issued server command: /tp MrRetex -1184 ~ -608
+[17:49:58] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[17:50:05] [Server thread/INFO]: BaFV has made the advancement [The City at the End of the Game]
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:50:05] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:50:08] [Server thread/INFO]: MrRetex has made the advancement [The City at the End of the Game]
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:50:08] [Craft Scheduler Thread - 22/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:50:43] [Server thread/INFO]: MrRetex issued server command: /gm 3
+[17:50:50] [Server thread/INFO]: MrRetex issued server command: /gm 0
+[17:51:41] [Server thread/INFO]: MrRetex issued server command: /fly
+[17:51:49] [Server thread/INFO]: MrRetex issued server command: /fly
+[17:51:59] [Server thread/INFO]: MrRetex has made the advancement [Local Brewery]
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:51:59] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:52:05] [Server thread/INFO]: MrRetex issued server command: /invsee BaFV
+[17:52:22] [Server thread/INFO]: MrRetex has reached the goal [Sky's the Limit]
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:52:23] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:52:36] [Server thread/INFO]: MrRetex issued server command: /ec
+[17:52:41] [Server thread/INFO]: BaFV has completed the challenge [Great View From Up Here]
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:122)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:92)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:52:42] [Craft Scheduler Thread - 27/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:52:53] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[17:53:03] [Server thread/INFO]: MrRetex issued server command: /ec
+[17:53:12] [Server thread/INFO]: MrRetex issued server command: /ec
+[17:53:59] [Server thread/INFO]: MrRetex issued server command: /stopsound @a
+[17:53:59] [Server thread/INFO]: [MrRetex: Stopped all sounds]
+[17:54:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] System DNS FAILED to resolve hostname discord.com, switching to fallback DNS servers!
+[17:54:16] [Server thread/INFO]: MrRetex issued server command: /clan
+[17:54:28] [Server thread/INFO]: [Clan Announce] [[OWNER] MrRetex] * Clan-wide friendly-fire is allowed
+[17:55:15] [Server thread/WARN]: BaFV moved too quickly! -6.048057307470344,-47.0,-4.350181763541741
+[17:55:17] [Server thread/INFO]: BaFV was burnt to a crisp whilst fighting MrRetex
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:55:17] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:55:25] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[17:55:35] [Server thread/INFO]: MrRetex issued server command: /irp restore BaFV
+[17:55:49] [Server thread/INFO]: BaFV died
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:55:49] [Craft Scheduler Thread - 29/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:56:05] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[17:56:08] [Server thread/INFO]: MrRetex issued server command: /irp restore BaFV
+[17:56:26] [Server thread/INFO]: MrRetex issued server command: /lagg clear
+[17:56:28] [Server thread/WARN]: BaFV moved too quickly! 1.8568637998928352,-45.0,-7.266477309225479
+[17:56:51] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[17:57:00] [Server thread/WARN]: BaFV moved too quickly! -0.10234084642070229,-57.0,0.04378541560663507
+[17:57:44] [Server thread/INFO]: BaFV was slain by MrRetex
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:57:44] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:57:54] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[17:58:03] [Server thread/INFO]: MrRetex issued server command: /clear BaFV
+[17:58:06] [Server thread/INFO]: MrRetex issued server command: /clear BaFV
+[17:58:10] [Server thread/INFO]: MrRetex issued server command: /invsee
+[17:58:18] [Server thread/INFO]: MrRetex issued server command: /openinv BaFV
+[17:58:18] [Server thread/INFO]: [OpenInv] [LanguageManager] Missing translations from ru_ru.yml: messages.error.consoleUnsupported, messages.error.lootNotGenerated, messages.error.invalidMaterial, messages.error.invalidNumber, messages.error.invalidPlayer, messages.error.permissionOpenSelf, messages.error.permissionEnderAll, messages.error.permissionExempt, messages.error.permissionCrossWorld, messages.error.permissionPlayerOnline, messages.error.permissionPlayerOffline, messages.error.commandException, messages.info.containerBlocked, messages.info.containerBlockedSilent, messages.info.containerSilent, messages.info.settingState, messages.info.player.noMatches, messages.info.player.matches, messages.info.container.noMatches, messages.info.container.matches, messages.info.true, messages.info.false, container.player, container.enderchest
+[17:58:29] [Server thread/INFO]: MrRetex issued server command: /clear BaFV
+[17:58:36] [Server thread/INFO]: MrRetex issued server command: /irp restore BaFV
+[17:58:52] [Server thread/INFO]: MrRetex issued server command: /irp restore BaFV
+[17:59:40] [Server thread/INFO]: MrRetex issued server command: /thor BaFV
+[17:59:54] [Server thread/INFO]: BaFV was burnt to a crisp whilst fighting MrRetex
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:59:54] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[18:00:04] [Server thread/INFO]: MrRetex issued server command: /lagg clear
+[18:00:15] [Server thread/INFO]: MrRetex issued server command: /thor BaFV 5
+[18:00:21] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[18:00:23] [Server thread/INFO]: MrRetex issued server command: /thor BaFV 5
+[18:00:39] [Server thread/INFO]: MrRetex issued server command: /thor BaFV 5
+[18:00:40] [Server thread/INFO]: MrRetex issued server command: /thor BaFV 5
+[18:00:41] [Server thread/INFO]: MrRetex issued server command: /thor BaFV 5
+[18:00:41] [Server thread/INFO]: BaFV died
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:00:41] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[18:00:46] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[18:00:53] [Server thread/INFO]: MrRetex issued server command: /irp restore BaFV
+[18:01:30] [Server thread/INFO]: BaFV was burnt to a crisp whilst fighting MrRetex
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.constructAvatarUrl(DiscordSRV.java:2132)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:01:30] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[18:01:33] [Server thread/INFO]: MrRetex issued server command: /tp BaFV MrRetex
+[18:01:39] [Server thread/INFO]: MrRetex issued server command: /clan
+[18:01:43] [Server thread/INFO]: [Clan Announce] [[OWNER] MrRetex] * Clan-wide friendly-fire blocked
+[18:01:46] [Server thread/INFO]: MrRetex issued server command: /irp restore BaFV
+[18:01:57] [Server thread/INFO]: MrRetex issued server command: /lagg clear
+[18:02:06] [Server thread/INFO]: MrRetex issued server command: /clear BaFV
+[18:02:14] [Server thread/INFO]: MrRetex issued server command: /openinv BaFV
+[18:02:21] [Server thread/INFO]: MrRetex issued server command: /lagg clear
+[18:02:24] [Server thread/INFO]: MrRetex issued server command: /irp restore BaFV
+[18:03:14] [Server thread/INFO]: BaFV issued server command: /q
+[18:03:15] [Server thread/INFO]: MrRetex issued server command: /save-all
+[18:03:15] [Server thread/INFO]: [MrRetex: Saved the game]
+[18:03:17] [Server thread/INFO]: BaFV issued server command: /q
+[18:03:23] [Async Chat Thread - #0/INFO]: [Игрок] BaFV: .й
+[18:03:54] [Server thread/INFO]: BaFV lost connection: Disconnected
+[18:03:54] [Server thread/INFO]: [voicechat] Disconnecting client BaFV
+[18:03:54] [Server thread/INFO]: BaFV left the game
+[18:03:54] [Craft Scheduler Thread - 32/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.isInstance(Object)" because "github.scarsz.discordsrv.util.NMSUtil.class_ResolvableProfile" is null
+[18:03:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.getTexture(NMSUtil.java:202)
+[18:03:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2110)
+[18:03:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendLeaveMessage(DiscordSRV.java:2016)
+[18:03:54] [Craft Scheduler Thread - 32/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$PlayerQuitEvent$0(PlayerJoinLeaveListener.java:131)
+[18:03:54] [Craft Scheduler Thread - 32/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[18:03:54] [Craft Scheduler Thread - 32/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[18:03:54] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:03:54] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:03:54] [Craft Scheduler Thread - 32/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[18:04:02] [Server thread/INFO]: MrRetex issued server command: /save-all
+[18:04:02] [Server thread/INFO]: [MrRetex: Saved the game]
+[18:05:02] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[18:05:02] [Server thread/INFO]: [Rcon: Stopping the server]
+[18:05:02] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[18:05:03] [Server thread/INFO]: Stopping server
+[18:05:03] [Server thread/INFO]: Disabling EssentialsDiscordLink v2.21.2
+[18:05:03] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v2.2.2
+[18:05:03] [Server thread/INFO]: [AuctionHouse] Saving auctions data
+[18:05:03] [Server thread/INFO]: [SimpleClans] Disabling SimpleClans v2.19.2-05e7abc
+[18:05:03] [Server thread/INFO]: [LWC] Disabling LWC v2.2.8-f367129
+[18:05:03] [Server thread/INFO]: [LWC] Flushing protection updates (0)
+[18:05:03] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v7.0.3
+[18:05:03] [Server thread/INFO]: Disabling EssentialsDiscord v2.21.2
+[18:05:03] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.30.5
+[18:05:07] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Отключение завершено за 4058мс
+[18:05:07] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v23.1
+[18:05:07] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[18:05:07] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v23.1
+[18:05:07] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[18:05:07] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[18:05:07] [Server thread/INFO]: [TAB] Disabling TAB v6.0.1
+[18:05:07] [Server thread/INFO]: [TAB] Disabled in 1ms
+[18:05:07] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[18:05:07] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[18:05:07] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[18:05:07] [Server thread/INFO]: Disabling EssentialsChat v2.21.2
+[18:05:07] [Server thread/INFO]: Disabling Essentials v2.21.2
+[18:05:07] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[18:05:07] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[18:05:07] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:05:07] [Server thread/INFO]: [LPC] Disabling LPC v3.7.1
+[18:05:07] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:05:07] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.0
+[18:05:08] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.16
+[18:05:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.42
+[18:05:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:05:08] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:05:08] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:05:08] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.4
+[18:05:08] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.0.1
+[18:05:08] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:05:08] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[18:05:08] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[18:05:08] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.5
+[18:05:08] [Server thread/INFO]: [InventoryRollbackPlus] Disabling InventoryRollbackPlus v1.8.3
+[18:05:08] [Server thread/INFO]: [InventoryRollbackPlus] Setting shutdown state
+[18:05:08] [Server thread/INFO]: [InventoryRollbackPlus] Saving player inventories...
+[18:05:08] [Server thread/INFO]: [InventoryRollbackPlus] Done saving player inventories!
+[18:05:08] [Server thread/INFO]: [InventoryRollbackPlus] Plugin is disabled!
+[18:05:08] [Server thread/INFO]: Saving players
+[18:05:08] [Server thread/INFO]: MrRetex lost connection: Server closed
+[18:05:08] [Server thread/INFO]: MrRetex left the game
+[18:05:08] [Server thread/INFO]: Saving worlds
+[18:05:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:05:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:05:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:05:09] [Server thread/INFO]: Thread RCON Listener stopped

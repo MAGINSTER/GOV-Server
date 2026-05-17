@@ -221,6 +221,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-05-17 17:52:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2026-05-12 12:54:07 +0000"
@@ -272,6 +278,12 @@
   "minecraft:recipes/building_blocks/cyan_wool": {
     "criteria": {
       "has_white_wool": "2026-05-12 12:53:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2026-05-17 17:48:21 +0000"
     },
     "done": true
   },
@@ -383,7 +395,9 @@
       "chicken": "2026-05-10 19:18:32 +0000",
       "cooked_mutton": "2026-05-12 13:11:13 +0000",
       "cooked_beef": "2026-05-11 20:11:49 +0000",
+      "chorus_fruit": "2026-05-17 17:48:59 +0000",
       "porkchop": "2026-05-10 19:16:32 +0000",
+      "cooked_cod": "2026-05-17 17:27:51 +0000",
       "mutton": "2026-05-10 19:19:26 +0000",
       "pufferfish": "2026-05-14 09:03:04 +0000",
       "bread": "2026-05-13 07:51:15 +0000",
@@ -914,6 +928,12 @@
     },
     "done": true
   },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2026-05-17 17:42:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2026-05-10 19:19:41 +0000"
@@ -962,6 +982,8 @@
       "minecraft:phantom": "2026-05-12 13:06:30 +0000",
       "minecraft:zombified_piglin": "2026-05-13 08:01:17 +0000",
       "minecraft:wither_skeleton": "2026-05-13 07:47:54 +0000",
+      "minecraft:ender_dragon": "2026-05-17 17:42:49 +0000",
+      "minecraft:shulker": "2026-05-17 17:50:57 +0000",
       "minecraft:piglin": "2026-05-13 19:00:51 +0000",
       "minecraft:silverfish": "2026-05-13 10:53:24 +0000",
       "minecraft:enderman": "2026-05-13 18:27:43 +0000",
@@ -1193,6 +1215,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-05-17 17:34:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2026-05-10 19:08:17 +0000"
@@ -1274,6 +1302,12 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2026-05-13 07:52:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-05-17 17:38:03 +0000"
     },
     "done": true
   },
@@ -1763,6 +1797,12 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-05-17 17:50:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2026-05-13 07:52:12 +0000"
@@ -1871,12 +1911,14 @@
       "minecraft:forest": "2026-05-13 17:42:14 +0000",
       "minecraft:taiga": "2026-05-10 19:04:04 +0000",
       "minecraft:birch_forest": "2026-05-10 19:07:46 +0000",
+      "minecraft:deep_lukewarm_ocean": "2026-05-17 17:33:18 +0000",
       "minecraft:beach": "2026-05-14 16:17:16 +0000",
       "minecraft:river": "2026-05-10 19:07:47 +0000",
       "minecraft:lukewarm_ocean": "2026-05-14 16:17:02 +0000",
       "minecraft:birch_forest_hills": "2026-05-10 19:22:06 +0000",
       "minecraft:wooded_mountains": "2026-05-10 19:56:40 +0000",
       "minecraft:wooded_hills": "2026-05-13 17:42:17 +0000",
+      "minecraft:stone_shore": "2026-05-17 17:27:23 +0000",
       "minecraft:swamp": "2026-05-14 16:16:51 +0000",
       "minecraft:plains": "2026-05-14 16:34:56 +0000"
     },
@@ -1903,6 +1945,12 @@
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2026-05-13 19:14:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2026-05-17 17:51:59 +0000"
     },
     "done": true
   },
@@ -2038,6 +2086,12 @@
     },
     "done": true
   },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2026-05-17 17:43:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2026-05-10 19:42:15 +0000"
@@ -2095,6 +2149,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2026-05-12 12:54:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-05-17 17:38:03 +0000"
     },
     "done": true
   },
